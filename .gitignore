@@ -9,3 +9,10 @@ build/
 .env
 .venv/
 venv/
+
+# Large binary assets — copy from original project locally
+# all_sounds/ contains ~1GB of MP3 files; too large for GitHub
+all_sounds/
+
+# Wrong words / SRS progress are local user data
+wrong_words_record/*.json
