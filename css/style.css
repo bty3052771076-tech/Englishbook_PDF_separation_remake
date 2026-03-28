@@ -609,19 +609,9 @@ body {
     text-overflow: ellipsis;
     pointer-events: none;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.30);
-    /* 默认隐藏；.show-labels 或 .playing 时显示 */
-    opacity: 0;
+    /* span 只在 showLabels=true 时由 JS 创建，存在即可见 */
+    opacity: 1;
     transition: opacity 0.15s ease;
-}
-
-/* show-labels 模式：显示文字 */
-.show-labels .word-button .word-text {
-    opacity: 1;
-}
-
-/* 播放中也显示文字 */
-.word-button.playing .word-text {
-    opacity: 1;
 }
 
 /* 悬停时不显示文字（保留空白遮盖的测试意义） */
