@@ -1,0 +1,15 @@
+1. reading room
+2. reading list
+3. to borrow
+4. to renew
+5. to return
+6. to reserve
+7. aisle
+8. bookshelf
+9. librarian
+10. library card
+11. periodical 
+12. book
+13. library
+14. circulation desk 
+Library

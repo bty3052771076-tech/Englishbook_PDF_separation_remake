@@ -1,0 +1,43 @@
+1. map
+2. compass
+3. north
+4. northeast
+5. east
+6. southeast
+7. south
+8. southwest
+9. west
+10. northwest
+11. main road
+12. secondary road
+13. public footpath
+14. railroad 
+15. train station
+16. campground 
+17. rest stop 
+18. grid lines
+19. nature reserve
+20. viewpoint
+21. walking trail
+22. town
+23. house 
+24. school
+25. library
+26. ferry route
+27. contours
+28. river
+29. lake
+30. forest
+31. beach
+32. clockwise
+33. counterclockwise 
+34. coordinates
+35. orienteering
+36. latitude
+37. longitude
+38. scale
+39. cartographer
+40. online map
+41. trail map 
+42. roadmap 
+Reading a map

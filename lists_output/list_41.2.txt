@@ -1,0 +1,25 @@
+1. annual
+2. biennial
+3. perennial
+4. evergreen
+5. deciduous
+6. heather
+7. palms
+8. conifers
+9. topiary
+10. climber
+11. ornamental plants
+12. shade plants
+13. bamboo
+14. weeds
+15. herbs
+16. water plants
+17. rushes
+18. ferns
+19. alpine plants
+20. succulents
+21. cacti
+22. shrubs
+23. flowering shrub
+24. grasses
+Types of plants

@@ -1,0 +1,16 @@
+1. nut allergy
+2. peanut allergy
+3. seafood allergy
+4. lactose intolerant
+5. gluten intolerant
+6. dairy allergy
+7. wheat allergy
+8. egg allergy
+9. sesame allergy
+10. soy allergy 
+11. celery allergy
+12. sulfite allergy 
+13. allergic
+14. mustard allergy
+15. intolerant
+Food allergies

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF单词音频播放器 - The Human Body</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 内联 SVG favicon，避免浏览器请求 /favicon.ico 产生 404 -->
+    <link rel="icon" type="image/svg+xml" sizes="any" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230066ff'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='36' fill='white'%3EHB%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>PDF单词音频播放器</h1>
+            <p>点击单词播放对应的英语发音</p>
+            <div class="controls">
+                <div class="control-group page-nav">
+                    <button id="prevPage" class="control-btn">上一页</button>
+                    <div class="page-control">
+                        <label for="pageSelector">选择页面:</label>
+                        <select id="pageSelector"></select>
+                    </div>
+                    <button id="nextPage" class="control-btn">下一页</button>
+                </div>
+                <div class="control-group main-actions">
+                    <button id="playAll" class="control-btn">播放全部</button>
+                    <div class="page-control">
+                        <label for="playAllSectionSelect">播放小节:</label>
+                        <select id="playAllSectionSelect">
+                            <option value="all">整页</option>
+                        </select>
+                    </div>
+                    <button id="startReview" class="control-btn control-btn-review">今日复习</button>
+                    <button id="startTest" class="control-btn control-btn-test">测试模式</button>
+                    <button id="toggleLabels" class="control-btn">显示/隐藏标签</button>
+                    <button id="toggleButtons" class="control-btn">显示/隐藏按钮</button>
+                </div>
+                <div class="control-group secondary-actions">
+                    <div class="volume-control">
+                        <label for="volumeSlider">音量:</label>
+                        <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="0.7">
+                        <span id="volumeValue">70%</span>
+                    </div>
+                    <button id="adminToggle" class="control-btn admin-toggle">管理员模式</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-layout">
+            <!-- 左侧单词列表 -->
+            <aside id="wordListSidebar" class="sidebar left-sidebar">
+                <h2>单词列表</h2>
+                <div id="sidebarWordList" class="sidebar-word-list">
+                    <!-- 单词列表将由JS动态生成 -->
+                </div>
+            </aside>
+
+            <!-- 中心PDF阅读区 -->
+            <main class="main-content">
+                <div class="pdf-container" id="pdfContainer">
+                    <div class="loading" id="loading">
+                        <div class="spinner"></div>
+                        <p>正在加载页面和音频文件...</p>
+                    </div>
+                    
+                    <!-- PDF背景图片 -->
+                    <img id="pdfImage" alt="PDF页面" style="display: none;">
+                    
+                    <!-- 单词按钮容器 -->
+                    <div class="word-buttons" id="wordButtons"></div>
+
+                    <!-- 看图识词：高亮框 -->
+                    <div id="pictureQuizHighlight" class="picture-quiz-highlight" style="display: none;"></div>
+
+                    <!-- 看图识词：选项面板 -->
+                    <div id="pictureQuizPanel" class="picture-quiz-panel" style="display: none;">
+                        <div class="picture-quiz-header">
+                            <div id="pictureQuizDragHandle" class="picture-quiz-drag-handle" title="按住拖动">拖动</div>
+                            <div id="pictureQuizProgress" class="picture-quiz-progress"></div>
+                        </div>
+                        <div id="pictureQuizOptions" class="picture-quiz-options"></div>
+                    </div>
+                    
+                    <!-- 音频播放状态指示器 -->
+                    <div class="audio-indicator" id="audioIndicator">
+                        <div class="indicator-content">
+                            <span class="playing-word" id="playingWord"></span>
+                            <div class="audio-progress">
+                                <div class="progress-bar" id="progressBar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- 右侧复习中心 -->
+            <aside id="wrongListSidebar" class="sidebar right-sidebar">
+                <h2 class="review-title">复习中心</h2>
+
+                <div class="sidebar-section">
+                    <div class="sidebar-section-header">
+                        <span class="sidebar-section-title">今日复习</span>
+                        <button id="refreshTodayReview" class="small-btn" title="刷新今日复习">🔄</button>
+                    </div>
+                    <div id="sidebarTodayReviewList" class="sidebar-word-list">
+                        <div class="empty-tip">暂无到期复习</div>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <div class="sidebar-section-header">
+                        <span class="sidebar-section-title">错题本</span>
+                        <button id="refreshWrongList" class="small-btn" title="刷新错题">🔄</button>
+                    </div>
+                    <div id="sidebarWrongList" class="sidebar-word-list">
+                        <!-- 错题列表将由JS动态生成 -->
+                        <div class="empty-tip">暂无错题记录</div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- 右侧管理员工具面板 -->
+            <aside class="admin-panel" id="adminPanel" style="display: none;">
+                <div class="admin-controls">
+                    <h3 class="admin-drag-handle" title="按住这里拖动">管理员工具</h3>
+                    <div class="admin-buttons">
+                        <button id="saveChanges" class="admin-btn">保存修改</button>
+                        <button id="exportJSON" class="admin-btn admin-btn-export">导出JSON</button>
+                        <button id="resetChanges" class="admin-btn">重置修改</button>
+                    </div>
+                    <div class="edit-form" id="editForm" style="display: none;">
+                        <h4>编辑单词按钮</h4>
+                        <div class="form-group">
+                            <label for="editWord">单词文本:</label>
+                            <input type="text" id="editWord" placeholder="输入单词">
+                        </div>
+                        <div class="form-group">
+                            <label for="editAudio">音频文件:</label>
+                            <select id="editAudio"></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="editWidth">按钮宽度:</label>
+                            <input type="number" id="editWidth" min="20" max="500" step="5">
+                        </div>
+                        <div class="form-group">
+                            <label for="editHeight">按钮高度:</label>
+                            <input type="number" id="editHeight" min="15" max="100" step="2">
+                        </div>
+                        <div class="form-buttons">
+                            <button id="applyEdit" class="admin-btn">应用修改</button>
+                            <button id="cancelEdit" class="admin-btn">取消</button>
+                        </div>
+                    </div>
+
+                    <div class="add-button-form">
+                        <h4>新增按钮</h4>
+                        <div class="form-group">
+                            <label for="newWord">单词文本:</label>
+                            <input type="text" id="newWord" placeholder="输入新单词">
+                        </div>
+                        <div class="form-group">
+                            <label for="newAudio">音频文件:</label>
+                            <div class="audio-input-group">
+                                <select id="newAudioSelect" class="new-audio-select">
+                                    <option value="">-- 选择音频文件 --</option>
+                                </select>
+                                <button type="button" id="refreshAudioList" class="admin-btn admin-btn-refresh-audio">刷新</button>
+                            </div>
+                            <input type="text" id="newAudio" class="new-audio-input" placeholder="或手动输入音频文件名">
+                        </div>
+                        <div class="form-group">
+                            <label for="newWidth">按钮宽度:</label>
+                            <input type="number" id="newWidth" placeholder="宽度(px)" value="80">
+                        </div>
+                        <div class="form-group">
+                            <label for="newHeight">按钮高度:</label>
+                            <input type="number" id="newHeight" placeholder="高度(px)" value="30">
+                        </div>
+                        <div class="form-group">
+                            <label for="newX">X坐标:</label>
+                            <input type="number" id="newX" placeholder="X位置(px)" value="100">
+                        </div>
+                        <div class="form-group">
+                            <label for="newY">Y坐标:</label>
+                            <input type="number" id="newY" placeholder="Y位置(px)" value="100">
+                        </div>
+                        <div class="form-buttons">
+                            <button id="addNewButton" class="admin-btn">添加按钮</button>
+                            <button id="clearAddForm" class="admin-btn">清空表单</button>
+                        </div>
+                    </div>
+                    
+                    <!-- 删除按钮功能 -->
+                    <div class="admin-section">
+                        <h3>删除按钮</h3>
+                        <div class="form-group">
+                            <label for="deleteMode">删除模式:</label>
+                            <button id="toggleDeleteMode" class="admin-btn">启用删除模式</button>
+                            <p class="help-text">启用删除模式后，点击任意按钮即可删除</p>
+                        </div>
+                    </div>
+
+                    <!-- 按钮列表查看 -->
+                    <div class="admin-section" id="buttonListSection">
+                        <h3>按钮列表</h3>
+                        <div class="form-group">
+                            <button id="refreshButtonList" class="admin-btn">刷新按钮列表</button>
+                        </div>
+                        <div id="buttonList" class="button-list"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="footer">
+            <div class="stats" id="stats">
+                <span>总单词数: <span id="totalWords">0</span></span>
+                <span>已播放: <span id="playedWords">0</span></span>
+                <span>当前章节: <span id="currentSection">1.1 - The Human Body</span></span>
+            </div>
+            <div class="error-message" id="errorMessage" style="display: none;"></div>
+        </footer>
+    </div>
+
+    <!-- 音频元素 -->
+    <audio id="audioPlayer" preload="none"></audio>
+
+    <!-- 异常捕获（在加载外部脚本之前） -->
+    <script>
+        // 在页面级别捕获脚本语法错误与运行时错误，便于定位报错文件与行号
+        window.addEventListener('error', function (event) {
+            var el = document.getElementById('errorMessage');
+            if (el) {
+                el.style.display = 'block';
+                el.textContent = '错误: ' + (event.message || '未知错误') +
+                    (event.filename ? ' | 文件: ' + event.filename : '') +
+                    (event.lineno ? ' | 行: ' + event.lineno : '') +
+                    (event.colno ? ' | 列: ' + event.colno : '');
+            }
+        });
+        window.addEventListener('unhandledrejection', function (event) {
+            var el = document.getElementById('errorMessage');
+            if (el) {
+                el.style.display = 'block';
+                var reason = event.reason && (event.reason.message || event.reason.toString());
+                el.textContent = '未处理的Promise拒绝: ' + (reason || '未知原因');
+            }
+        });
+    </script>
+
+    <!-- 测试模式模态框 -->
+    <div id="testModal" class="modal modal-test" style="display: none;">
+        <div class="modal-content modal-test-content">
+            <h2 id="testModalTitle">单词测试</h2>
+            
+            <!-- 设置部分 -->
+            <div id="testSetup">
+                <div class="form-group modal-form-group">
+                    <label for="testTypeSelect" class="modal-label">选择测试类型:</label>
+                    <select id="testTypeSelect" class="modal-select">
+                        <option value="listen_click">听音辨位</option>
+                        <option value="picture_choice">看图识词</option>
+                    </select>
+                </div>
+                <div class="form-group modal-form-group">
+                    <label for="testSectionSelect" class="modal-label">选择测试章节:</label>
+                    <select id="testSectionSelect" class="modal-select">
+                        <option value="all">整页测试 (所有章节)</option>
+                    </select>
+                </div>
+
+                <p class="modal-tip">请输入要测试的单词数量</p>
+                <div class="form-group">
+                    <input type="number" id="testCountInput" class="modal-count-input" min="1" max="100" value="10">
+                    <span class="modal-unit">个</span>
+                </div>
+                <div class="form-buttons modal-form-buttons">
+                    <button id="confirmStartTest" class="control-btn modal-btn-start">开始测试</button>
+                    <button id="cancelTest" class="control-btn modal-btn-cancel">取消</button>
+                </div>
+            </div>
+
+            <!-- 结果部分 -->
+            <div id="testResult" style="display: none;">
+                <div class="result-score">
+                    <span id="correctCount">0</span> / <span id="totalTestCount">0</span>
+                </div>
+                <p class="result-accuracy">正确率: <span id="accuracy">0%</span></p>
+                
+                <!-- 错误单词列表 -->
+                <div id="wrongWordsContainer" class="wrong-words-container" style="display: none;">
+                    <h3 class="section-title error-section-title">需要复习的单词</h3>
+                    <div id="wrongWordsList" class="modal-scroll-list"></div>
+                </div>
+
+                <div id="srsFeedbackContainer" class="srs-feedback-container" style="display: none;">
+                    <h3 class="section-title">复习反馈（用于安排下次复习时间）</h3>
+                    <div id="srsFeedbackList" class="modal-scroll-list modal-scroll-list-lg"></div>
+                    <div class="srs-actions">
+                        <button id="saveSrsFeedback" class="control-btn srs-save-btn">保存复习反馈</button>
+                    </div>
+                </div>
+
+                <button id="closeTestResult" class="control-btn modal-close-btn">关闭</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 脚本文件（附加版本参数以避免浏览器缓存旧代码） -->
+    <script src="js/page-config.js?v=20260302e"></script>
+    <script src="js/main.js?v=20260302e"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+1. restaurant
+2. gym
+3. swimming pool
+4. room service
+5. breakfast tray
+6. laundry service
+7. maid service
+8. minibar
+9. safe
+Services

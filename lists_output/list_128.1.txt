@@ -1,0 +1,7 @@
+Targeting Cookies
+
+Performance Cookies
+label
+checkbox label
+Leg.Interest
+Consent

@@ -1,0 +1,21 @@
+1. co-pilot
+2. pilot
+3. flight attendant
+4. business class
+5. economy class
+6. aileron
+7. window
+8. fin
+9. rudder
+10. tail
+11. tailplane
+12. emergency exit
+13. cockpit
+14. nose
+15. nosewheel
+17. carry-on 
+18. jumbo jet
+19. engine
+20. landing gear
+21. wing
+Passenger airplane 

@@ -1,0 +1,44 @@
+1. gallery
+2. entrance
+3. wheelchair ramp
+4. museum
+5. restrooms 
+6. cloakroom
+7. admission fee
+8. ticket
+9. ticket office
+10. donation
+11. floor plan
+12. curator
+13. exhibition
+14. exhibit
+15. permanent exhibition
+16. temporary exhibition
+17. installation
+18. collection
+19. conservation
+20. tour guide
+21. audio guide
+22. no photography
+23. gift shop
+24. sculpture
+25. surveillance camera
+26. label
+27. masterpiece
+28. security guard
+29. This masterpiece is priceless!
+30. frame
+31. painting
+32. oil painting
+33. watercolor 
+34. Classicism
+35. Impressionism
+36. Post-Impressionism
+37. Cubism
+38. Surrealism
+39. Bauhaus
+40. Pop Art
+41. Art Deco
+42. Art Nouveau
+43. conceptual art
+At the museum and art gallery

@@ -1,0 +1,13 @@
+1. lager
+2. Pilsner
+3. wheat beer
+4. Indian pale ale 
+5. ale
+6. stout
+7. alcohol-free beer
+8. red wine
+9. white wine
+10. rosé
+11. sparkling wine
+12. Champagne
+Beer and wine

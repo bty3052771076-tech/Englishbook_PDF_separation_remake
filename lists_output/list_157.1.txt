@@ -1,0 +1,46 @@
+1. Precambrian
+2. bacteria
+3. Cambrian
+4. marrella
+5. trilobite
+6. Ordovician
+7. jawless fish
+8. Silurian
+9. jawed fish
+10. cooksonia
+11. Devonian
+12. drepanaspis
+13. ichthyostega
+14. Carboniferous
+15. ferns
+16. giant horsetails
+17. meganeura
+18. Permian
+19. dimetrodon
+20. conifers
+21. Triassic
+22. plateosaurus
+23. placerias
+24. coelophysis
+25. Jurassic
+26. flying reptiles
+27. brachiosaurus
+28. stegosaurus
+29. Cretaceous
+30. tyrannosaurus rex
+31. triceratops
+32. albertonectes
+33. flowering plants
+34. Paleogene
+35. gastornis
+36. Neogene
+37. saber-toothed cat 
+38. woolly rhinoceros
+39. Quaternary
+40. giant sloth
+41. woolly mammoth
+42. tiger
+43. early human
+44. Paleozoic 
+45. Mesozoic 
+Eras

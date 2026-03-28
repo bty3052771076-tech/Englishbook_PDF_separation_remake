@@ -1,0 +1,16 @@
+1. bus shelter
+2. bus station
+3. bus ticket
+4. fare
+5. bell
+6. stop button
+7. driver's seat
+8. handrail
+9. window
+10. door
+11. rear wheel
+12. front wheel
+13. coach
+14. luggage hold
+15. wheelchair access
+Bus

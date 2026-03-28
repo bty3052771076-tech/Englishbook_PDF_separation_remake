@@ -1,0 +1,13 @@
+1. lamb
+2. pork
+3. beef
+4. veal
+5. venison
+6. goat
+7. hare
+8. wild boar
+9. cooked meat
+10. raw meat
+11. cured meat
+12. smoked meat
+Types of meat

@@ -1,0 +1,13 @@
+1. to turn on
+2. to turn off
+3. to turn up the volume
+4. to turn down the volume
+5. to change the channel
+6. to stream
+7. to play
+8. to stop
+9. to pause
+10. to rewind
+11. to fast forward
+12. to record
+Television verbs

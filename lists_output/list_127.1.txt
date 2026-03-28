@@ -1,0 +1,26 @@
+1. drama
+2. musical
+3. science fiction
+4. thriller
+5. comedy
+6. action movie
+7. horror
+8. animation
+9. romantic comedy
+10. crime drama
+11. western
+12. historical drama
+13. fantasy
+14. martial arts
+15. special effects
+16. box office
+17. multiplex
+18. popcorn
+19. movie star 
+20. screen
+21. audience
+22. movie theater 
+23. main character
+24. hero
+25. villain
+At the movies 

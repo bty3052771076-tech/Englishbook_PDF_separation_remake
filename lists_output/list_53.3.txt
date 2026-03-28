@@ -1,0 +1,8 @@
+1. turkey
+2. goose
+3. pheasant
+4. duck
+5. chicken
+6. quail
+8. Yes, it's locally sourced.
+Poultry

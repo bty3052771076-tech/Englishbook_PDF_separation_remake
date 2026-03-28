@@ -1,0 +1,19 @@
+1. sweet
+2. savory 
+3. sour
+4. salty
+5. bitter
+6. spicy 
+7. fresh
+8. bad 
+9. strong
+10. iced 
+11. carbonated 
+12. non-carbonated 
+13. rich
+14. juicy
+15. crunchy
+16. delicious
+17. disgusting
+18. tasty
+Adjectives

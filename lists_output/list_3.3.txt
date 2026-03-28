@@ -1,0 +1,33 @@
+1. skull
+2. jaw
+3. shoulder blade 
+4. humerus
+5. rib cage
+6. pelvis
+7. kneecap 
+8. fibula
+9. tarsals
+10. metatarsals
+11. collarbone 
+12. breastbone 
+13. rib
+14. ulna
+15. radius
+16. carpals
+17. metacarpals
+18. phalanges
+19. femur
+20. tibia
+21. phalanges
+22. cervical vertebrae
+23. thoracic vertebrae
+24. lumbar vertebrae
+25. tailbone 
+26. coccyx
+27. spine
+28. cartilage
+29. ligament
+30. bone
+31. tendon
+32. joint
+Skeleton

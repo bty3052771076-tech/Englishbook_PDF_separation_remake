@@ -1,0 +1,51 @@
+1. security guard
+2. window cleaner
+3. artist
+4. bodyguard
+5. psychologist
+6. businessman
+7. businesswoman
+8. accountant
+9. chef
+10. construction worker 
+11. radio DJ
+12. engineer
+13. fashion designer
+14. rock star
+15. flight instructor
+16. janitor
+17. tour guide
+18. mail carrier 
+19. personal assistant 
+20. librarian
+21. locksmith
+22. paramedic
+23. music teacher
+24. childcare provider
+25. kitchen fitter
+26. taxi driver
+27. zookeeper
+28. judge
+29. You should have a lot of courtroom experience before you become a judge.
+30. anesthesiologist 
+31. surgeon
+32. My shift started at 8 o'clock this morning.
+33. driver
+34. secretary
+35. receptionist
+36. flight attendant
+37. scientist
+38. bus driver
+39. musician
+40. surveyor
+41. lawyer
+42. teacher
+43. journalist
+44. train driver
+45. travel agent
+46. truck driver 
+47. architect
+48. writer
+49. yoga teacher
+50. pilot
+Occupations

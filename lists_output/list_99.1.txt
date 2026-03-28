@@ -1,0 +1,16 @@
+1. headrest
+2. door lock
+3. armrest
+4. back seat
+5. car interior
+6. door handle
+7. manual
+8. automatic
+9. air conditioning
+10. car stereo
+11. ignition
+12. foot pedals
+13. clutch
+14. brake
+15. gas 
+Car interior

@@ -1,0 +1,36 @@
+1. school
+2. classroom
+3. class
+4. teacher
+5. whiteboard
+6. pupil
+7. desk
+8. school students
+9. school bag
+10. literature
+11. math 
+12. geography
+13. history
+14. science
+15. chemistry
+16. physics
+17. biology
+18. English
+19. languages
+20. design and technology
+21. information technology
+22. art
+23. music
+24. drama
+25. physical education
+26. head teacher 
+27. homework
+28. lesson
+29. exam
+30. essay
+31. grade
+32. encyclopedia
+33. dictionary
+34. atlas
+35. test
+School and study

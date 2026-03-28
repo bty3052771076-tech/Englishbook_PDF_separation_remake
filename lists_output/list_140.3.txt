@@ -1,0 +1,25 @@
+1. board games
+2. points
+3. score
+4. tic-tac-toe 
+5. dice
+6. solitaire
+7. pieces
+8. jigsaw puzzle
+9. dominoes
+10. darts
+11. dartboard
+12. bull's-eye 
+13. player
+14. to play
+15. It's your turn!
+16. to win
+17. to lose
+18. ludo
+19. to take
+20. to move
+21. checkers 
+22. chutes and ladders 
+23. go
+24. backgammon
+Games

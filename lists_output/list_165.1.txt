@@ -1,0 +1,46 @@
+1. chicken
+2. I feed the chickens twice a day.
+3. sheep
+4. chick
+5. cow
+6. lamb
+7. horse
+8. goose
+9. gosling
+10. pig
+11. piglet
+12. duck
+13. duckling
+14. rooster 
+15. hen
+16. turkey
+17. poultry
+18. ram
+19. ewe
+20. hive
+21. bee
+22. flock of sheep
+23. herd of cows
+24. bull
+25. calf
+26. cattle
+27. donkey
+28. stallion
+29. mare
+30. foal
+31. goat
+32. kid
+33. ostrich
+34. llama
+35. alpaca
+36. to shear
+37. to trot
+38. to gallop
+39. to charge
+40. to crow
+41. to bleat
+42. to snort
+43. to grunt
+44. to bray
+45. to quack
+On the farm

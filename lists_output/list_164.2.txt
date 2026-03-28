@@ -1,0 +1,24 @@
+1. pug
+2. German shepherd
+3. shih tzu
+4. basset hound
+5. Pomeranian
+6. chihuahua
+7. Dalmatian
+8. labrador
+9. beagle
+10. poodle
+11. Great Dane
+12. boxer
+13. retriever
+14. border collie
+15. puppy
+16. dachshund
+17. Doberman
+18. Siberian husky
+19. to scratch
+20. to beg
+21. to sniff
+22. to bark
+23. setter
+Dog breeds

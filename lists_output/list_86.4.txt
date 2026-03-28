@@ -1,0 +1,19 @@
+1. wheat
+2. corn 
+3. barley
+4. rapeseed
+5. sunflowers
+6. hay
+7. alfalfa
+8. tobacco
+9. rice
+10. tea
+11. coffee
+12. sugar cane
+13. flax
+14. cotton
+15. potatoes
+16. yams
+17. millet
+18. plantains
+Crops

@@ -1,0 +1,11 @@
+1. briefcase
+2. backpack 
+3. wallet 
+4. duffel bag 
+5. purse 
+6. suitcase
+7. handle
+8. shoulder strap
+9. fastening
+10. shoulder bag
+Bags

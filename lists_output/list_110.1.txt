@@ -1,0 +1,40 @@
+1. goal line
+2. attack zone
+3. referee crease
+4. red line
+5. players' bench
+6. defending zone
+7. blue line
+8. end zone
+9. face-off spot
+10. goal
+11. goal crease
+12. boards
+14. spectators
+15. penalty bench
+16. scorekeepers' bench
+17. neutral zone
+18. ice hockey rink
+19. center 
+20. goalkeeper
+21. right winger
+22. right defenseman 
+23. left defenseman 
+24. left winger
+25. ice hockey positions
+26. to skate
+27. shoulder pad
+28. helmet
+29. protective padding
+30. glove
+31. ice skate
+32. stick
+33. puck
+34. ice hockey player
+35. blocking glove
+36. face mask
+37. catching glove
+38. leg guard
+39. goalie stick
+40. goalkeeper
+Ice hockey

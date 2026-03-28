@@ -1,0 +1,69 @@
+1. reindeer
+2. caribou
+3. Arctic wolf
+4. Arctic fox
+5. musk ox
+6. polar bear
+7. Arctic hare
+8. seal
+9. Arctic
+10. brown bear
+11. red fox
+12. lynx
+13. boar
+14. wolf
+15. broadleaf forest
+16. howler monkey
+17. sloth
+18. squirrel monkey
+19. tapir
+20. capybara
+21. jaguar
+22. rain forest
+23. Asian elephant
+24. trunk
+25. anteater
+26. tiger
+27. cub
+28. leopard
+29. wildcat
+30. bobcat
+31. snow leopard
+32. ring-tailed lemur
+33. capuchin monkey
+34. spider monkey
+35. tail
+36. proboscis monkey
+37. pendulous nose
+38. macaque
+39. mandrill
+40. marmoset
+41. orangutan
+42. chimpanzee
+43. gibbon
+44. gorilla
+45. panda
+46. moose
+47. hoof
+48. long legs
+49. antler
+50. dewlap
+51. pangolin
+52. red panda
+53. warthog
+54. buffalo
+55. yak
+56. oryx
+57. mountain goat
+58. mole
+59. chipmunk
+60. mongoose
+61. armadillo
+62. meerkat
+63. to hunt
+64. to prowl
+65. to roar
+66. to swing
+67. to pounce
+68. to burrow
+Species of mammals

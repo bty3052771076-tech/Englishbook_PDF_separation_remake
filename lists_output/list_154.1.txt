@@ -1,0 +1,29 @@
+1. humidity
+2. heat wave 
+3. drought
+4. dry
+5. wet
+6. overcast
+7. smog
+8. raindrop
+9. light shower
+10. drizzle
+11. downpour
+12. flood
+13. sandstorm
+14. gale
+15. storm
+16. thunder
+17. lightning
+18. rainbow
+19. sleet
+20. snowflake
+21. snowdrift
+22. blizzard
+23. snowstorm
+24. hailstone
+25. hurricane
+26. tornado
+27. puddle
+28. It's raining cats and dogs today.
+Weather

@@ -1,0 +1,47 @@
+2. wine list
+3. bartender
+4. customers
+5. price
+6. tray
+7. Enjoy your meal!
+8. kitchen
+9. chef
+10. commis chef
+11. server 
+12. restaurant manager
+13. table setting
+15. dinner menu 
+16. server 
+17. dessert cart 
+18. fixed menu 
+19. brunch
+20. lunch menu
+21. à la carte menu
+22. specials
+23. kids meal 
+24. buffet
+25. three-course meal
+26. soup
+27. appetizer 
+28. entrée 
+29. side 
+30. cheese platter
+31. dessert 
+32. beverage
+33. coffee
+34. digestif
+35. sommelier
+36. to eat out
+37. to make a reservation
+38. to cancel
+39. to order
+40. check 
+41. to pay separately
+42. to split the check 
+43. service charge
+44. service included
+45. service not included
+46. tip
+47. receipt
+48. bistro
+Restaurant

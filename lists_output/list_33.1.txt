@@ -1,0 +1,36 @@
+1. bayonet fit
+2. CFL 
+3. incandescent bulb
+4. screw fit
+5. LED 
+6. light bulbs
+7. socket
+8. light switch
+9. direct current
+10. alternating current
+11. generator
+12. gas space heater
+13. oil-filled radiator
+14. fan space heater
+15. ceiling fan
+16. blade
+17. fan
+18. air conditioning
+19. power
+20. fuse box
+21. breaker 
+22. amp
+23. live
+24. neutral
+25. wires
+26. ground 
+27. voltage
+28. plug
+29. pin
+30. electricity meter
+31. transformer
+32. power outage 
+33. utility power 
+34. wiring
+35. Switch off the power before touching a live wire.
+Electricity

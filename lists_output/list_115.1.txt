@@ -1,0 +1,26 @@
+1. hole
+2. flag
+3. green
+4. bunker
+5. water hazard
+6. fairway
+7. rough
+8. golf course
+9. teeing ground
+10. swing
+11. stance
+12. golfer
+13. clubhouse
+14. cart 
+15. caddy
+16. par
+17. over par
+18. under par
+19. handicap
+20. line of play
+21. practice swing
+22. backswing
+23. hole in one
+24. tournament
+25. spectators
+On the golf course

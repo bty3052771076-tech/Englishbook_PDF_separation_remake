@@ -1,0 +1,37 @@
+1. castle
+2. drawbridge
+3. portcullis
+4. wall
+5. arrow slit
+6. keep
+7. turret
+8. battlement
+9. moat
+10. Ancient Greek temple
+11. pediment
+12. column
+13. church
+14. stained glass window
+15. bell tower
+16. ziggurat
+17. windmill
+18. warehouse
+19. shelter
+20. monastery
+21. ancient ruins
+22. abandoned 
+23. lighthouse
+24. power station
+25. modern building
+26. historic building
+27. residential buildings
+28. mosque
+29. dome
+30. minaret
+31. Orthodox church
+32. onion dome
+33. temple
+34. overhanging eaves
+35. synagogue
+36. Star of David
+Types of buildings

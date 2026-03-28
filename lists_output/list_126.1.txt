@@ -1,0 +1,34 @@
+1. performer
+2. set
+3. curtain
+4. balcony 
+5. box
+6. wings
+7. stage
+8. orchestra pit
+9. orchestra seating 
+10. mezzanine 
+11. aisle
+12. seating
+13. theater 
+14. audience
+15. row
+16. play
+17. costumes
+18. props
+19. sets
+20. backdrop
+21. script
+22. producer
+23. director
+24. actor
+25. cast
+26. opening night
+27. intermission 
+28. program 
+29. usher
+30. tragedy
+31. comedy
+32. musical
+33. standing ovation
+Theater 

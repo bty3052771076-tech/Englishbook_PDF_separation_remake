@@ -1,0 +1,7 @@
+1. to board
+2. to moor
+3. to disembark
+4. to drop anchor
+5. to dock
+6. to set sail
+Verbs

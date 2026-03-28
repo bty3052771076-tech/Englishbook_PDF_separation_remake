@@ -1,0 +1,29 @@
+1. hotel
+2. apartment
+3. hostel
+4. chalet
+5. cabin
+6. ecotourism
+7. single room
+8. twin room
+9. guest house
+10. bed and breakfast
+11. villa
+12. double room
+13. private 
+14. dorm
+15. room with a view
+16. vacancies
+17. no vacancies
+18. elevator 
+19. guests
+20. receptionist
+21. front desk 
+22. restrooms 
+23. emergency exit
+24. trolley
+25. luggage
+26. porter
+27. counter
+28. hotel lobby
+Accommodation

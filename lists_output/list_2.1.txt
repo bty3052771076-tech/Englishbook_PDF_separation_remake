@@ -1,0 +1,12 @@
+1. palm
+2. thumb
+3. index finger
+4. middle finger
+5. ring finger
+6. little finger
+7. wrist
+8. fingernail
+9. cuticle
+10. knuckle
+11. fist
+Hands

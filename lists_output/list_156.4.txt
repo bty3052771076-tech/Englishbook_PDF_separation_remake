@@ -1,0 +1,13 @@
+1. gold
+2. silver
+3. platinum
+4. magnesium
+5. iron
+6. copper
+7. tin
+8. aluminum 
+9. mercury
+10. nickel
+11. zinc
+12. chromium
+Metals

@@ -1,0 +1,46 @@
+1. Europe
+2. Ireland
+3. United Kingdom
+4. Portugal
+5. Spain
+6. Andorra
+7. France
+8. Belgium
+9. Netherlands
+10. Luxembourg
+11. Germany
+12. Denmark
+13. Norway
+14. Sweden
+15. Finland
+16. Estonia
+17. Latvia
+18. Lithuania
+19. Poland
+20. Czech Republic
+21. Austria
+22. Liechtenstein
+23. Switzerland
+24. Italy
+25. Monaco
+26. San Marino
+27. Malta
+28. Slovenia
+29. Croatia
+30. Hungary
+31. Slovakia
+32. Ukraine
+33. Belarus
+34. Moldova
+35. Romania
+36. Serbia
+37. Bosnia and Herzegovina
+38. Albania
+39. North Macedonia
+40. Bulgaria
+41. Greece
+42. Montenegro
+43. Iceland
+44. Cyprus
+45. Turkey
+46. Russian Federation

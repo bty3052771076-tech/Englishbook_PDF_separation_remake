@@ -1,0 +1,37 @@
+1. flu
+2. cold
+3. cough
+4. runny nose
+5. virus
+6. fever
+7. chill
+8. sore throat
+9. tonsillitis
+10. headache
+11. migraine
+12. dizzy
+13. food poisoning
+14. poisoning
+15. rash
+16. chickenpox
+17. measles
+18. mumps
+19. eczema
+20. asthma
+21. allergy
+22. hay fever
+23. infection
+24. diabetes
+25. stress
+26. nosebleed
+27. nausea
+28. appendicitis
+29. high blood pressure
+30. symptoms
+31. cramp
+32. backache
+33. pain
+34. stomachache 
+35. insomnia
+36. diarrhea 
+Illness

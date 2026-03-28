@@ -1,0 +1,14 @@
+1. exit
+2. cashier
+3. cash register 
+4. shelves
+5. self checkout
+6. shopping bag 
+7. conveyor belt
+8. basket
+9. shopping cart 
+10. checkout
+11. barcode
+12. scanner
+13. coupon 
+Checkout

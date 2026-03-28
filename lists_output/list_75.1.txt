@@ -1,0 +1,38 @@
+1. electricity
+2. electric field
+3. charge
+4. volt
+5. battery
+6. negative
+7. positive
+8. direct current
+9. alternating current
+10. semiconductor
+11. conductor
+12. alligator clip 
+13. circuit board
+14. transformer
+15. diode
+16. positive electrode
+17. negative electrode
+18. vacuum
+19. radio waves
+20. microwaves
+21. infrared
+22. visible light
+23. ultraviolet
+24. X-rays
+25. gamma radiation
+26. electromagnetic spectrum
+27. north pole
+28. magnetic field
+29. south pole
+30. magnet
+31. centrifugal force
+32. centripetal force
+33. fission
+34. fusion
+35. radioactivity
+36. particle
+37. particle accelerator
+Physics

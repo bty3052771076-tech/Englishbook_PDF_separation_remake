@@ -1,0 +1,21 @@
+1. fruit gum
+2. halva
+3. mint
+4. toffee
+5. soft candy 
+6. licorice 
+7. candy cane
+8. jelly beans
+9. chocolate bar
+10. dark chocolate
+11. hard candy 
+12. Turkish delight
+13. lollipop
+14. nougat
+15. milk chocolate
+16. white chocolate
+17. cotton candy 
+18. penny candy 
+19. marshmallow
+20. chewing gum
+Candy store 

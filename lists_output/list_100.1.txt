@@ -1,0 +1,36 @@
+1. controls
+2. turn signal 
+3. clutch
+4. speedometer
+5. horn
+6. brake
+7. throttle
+8. carrier
+9. helmet
+10. clothing
+11. visor
+12. reflector strap
+13. glove
+14. leather suit 
+15. knee pad
+16. boot
+17. pillion
+18. seat
+19. oil tank
+20. fuel tank
+21. windshield 
+22. headlight
+23. reflector
+24. tail light
+25. exhaust pipe
+26. muffler 
+27. brake rotor 
+28. gearbox
+29. engine
+30. air filter
+31. brake pedal
+32. mudguard
+33. suspension
+34. axle
+35. tire 
+Motorcycle 

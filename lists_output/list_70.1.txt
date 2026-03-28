@@ -1,0 +1,57 @@
+1. price list
+2. straw
+3. soft drink
+4. fries 
+6. hamburger
+7. paper napkin
+8. tray
+9. burger bar
+10. to eat in
+11. carryout 
+12. home delivery
+13. street stall
+14. menu
+15. milkshake
+16. canned drink
+17. soda 
+18. meal deal
+19. reusable cup
+20. sauce
+21. food truck 
+22. waffle
+23. ice cream
+24. muffin
+25. donut 
+26. food delivery driver
+27. Your order is on its way.
+28. veggie burger
+29. cheeseburger
+30. chicken sandwich 
+31. burger
+32. chicken nuggets
+33. fried chicken
+34. hash browns
+35. fish and chips
+36. hot dog
+37. ketchup
+38. mustard
+39. kebab
+40. ribs
+41. noodles
+42. dumplings
+43. empanada
+44. wrap
+45. filling
+46. crȇpe
+47. taco
+48. falafel
+49. nachos
+50. sandwich
+51. club sandwich
+52. open sandwich
+53. pizza oven
+54. pizza
+55. topping
+56. tomato sauce
+57. pizzeria
+In a fast-food restaurant

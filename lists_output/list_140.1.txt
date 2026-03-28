@@ -1,0 +1,13 @@
+1. I'm going to move my knight.
+2. chessboard
+3. pieces
+4. king
+5. bishop
+6. knight
+7. square
+8. white
+9. rook
+10. pawn
+11. queen
+12. black
+Chess

@@ -1,0 +1,19 @@
+1. coffee
+2. tea
+3. hot chocolate
+4. herbal tea
+5. iced tea
+6. lemonade
+7. juice
+8. mineral water
+9. tap water
+10. smoothie
+11. orangeade
+12. cola
+13. milkshake
+14. sports drink 
+15. red wine
+16. white wine
+17. rosé wine
+18. beer
+Drinks

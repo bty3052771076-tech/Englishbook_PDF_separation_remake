@@ -1,0 +1,7 @@
+1. squash
+2. racquetball
+3. ping pong 
+4. paddle 
+5. badminton
+6. shuttlecock
+Racket games

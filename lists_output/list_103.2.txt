@@ -1,0 +1,11 @@
+1. reading light
+2. air vent
+3. overhead locker
+4. aisle
+5. seat back
+6. seat
+7. tray table
+8. seat belt
+9. armrest
+10. row
+Cabin

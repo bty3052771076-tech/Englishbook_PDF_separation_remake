@@ -1,0 +1,19 @@
+1. battle
+2. front
+3. gunfire
+4. casualty
+5. field hospital
+6. mess
+7. guns
+8. machine gun
+9. pistol
+10. shotgun
+11. rifle
+12. grenade launcher
+13. grenade
+14. surface-to-air missile
+15. ballistic missile
+16. shoulder-launched missile
+17. cruise missile
+18. armed drone
+War and weapons

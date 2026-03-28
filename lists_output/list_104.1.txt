@@ -1,0 +1,61 @@
+1. airport
+2. control tower
+3. departures
+4. departure lounge
+5. boarding gate
+6. carry-on 
+7. sign
+8. escalator
+9. footbridge
+10. scale
+11. suitcase
+12. check-in desk
+13. X-ray machine
+14. time
+15. flight number
+16. airline
+17. to wait in line 
+18. terminal
+19. cart 
+20. security
+21. scanner
+22. luggage
+23. flight attendants
+24. destination
+25. status
+26. gate number
+27. information screen
+28. passport
+29. biometric passport
+30. visa
+31. ticket
+32. boarding pass
+33. online check-in
+34. bus transfer
+35. jet bridge 
+36. to board a plane
+37. to take off
+38. to land
+39. immigration
+40. vacation 
+41. domestic flight
+42. international flight
+43. to go abroad
+44. direct flight
+45. connection
+46. baggage trailer
+47. baggage claim
+48. customs
+49. car rental 
+50. taxi stand 
+51. excess baggage
+52. passport control
+53. currency exchange
+54. duty-free shop
+55. lost and found
+56. to be delayed
+57. service vehicle
+58. air cargo
+59. hangar
+60. runway
+At the terminal

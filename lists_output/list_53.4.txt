@@ -1,0 +1,13 @@
+1. leg
+2. thigh
+3. breast
+4. wing
+5. rib
+7. cuts
+8. cut 
+9. slice
+10. heart
+11. tongue
+12. kidney
+13. offal
+Cuts of meat

@@ -1,0 +1,19 @@
+1. leather
+2. cotton
+3. woolen 
+4. silk
+5. synthetic
+6. denim
+7. plain
+8. striped
+9. checkered 
+10. polka dot 
+11. paisley
+12. plaid
+13. loose 
+14. fitted
+15. tight
+16. crumpled
+17. cropped
+18. vintage
+Describing clothes

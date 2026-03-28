@@ -1,0 +1,9 @@
+1. auto repair shop 
+2. mechanic
+3. tow truck
+4. spare tire 
+5. flat tire 
+6. wrench
+7. lug nuts 
+8. jack
+Breakdown assistance

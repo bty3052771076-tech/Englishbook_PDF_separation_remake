@@ -1,0 +1,17 @@
+1. clam
+2. octopus
+3. lobster
+4. scallop
+5. crayfish
+6. unpeeled shrimp 
+7. peeled shrimp 
+8. squid
+9. oyster
+10. mussel
+11. seafood platter
+12. crab
+13. cockle
+14. razor-shell
+15. calamari
+16. sushi
+Seafood

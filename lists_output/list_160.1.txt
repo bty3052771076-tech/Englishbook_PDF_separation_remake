@@ -1,0 +1,63 @@
+1. green woodpecker
+2. black woodpecker
+3. hummingbird
+4. house martin
+5. seagull
+6. swift
+7. sand martin
+8. Arctic tern
+9. pileated woodpecker
+10. greater spotted woodpecker
+11. tail
+12. swallow
+13. canary
+14. budgerigar
+15. starling
+16. nightingale
+17. weaverbird
+18. vermilion flycatcher
+19. albatross
+20. frigate
+21. golden eagle
+22. bald eagle
+23. osprey
+24. cormorant
+25. gannet
+26. Andean condor
+27. peregrine falcon
+28. vulture
+29. harpy eagle
+30. guillemot
+31. Atlantic puffin
+32. emerald toucan
+33. toco toucan
+34. European robin
+35. wren
+36. sparrow
+37. nest
+38. scarlet ibis
+39. sacred ibis
+40. finch
+41. pigeon
+42. blackbird
+43. rook
+44. crow
+45. thrush
+46. raven
+47. bird of paradise
+48. pelican
+49. oystercatcher
+50. kingfisher
+51. kookaburra
+52. stork
+53. heron
+54. Egyptian goose
+55. Canada goose
+56. snow goose
+57. crane
+58. flamingo
+59. ostrich
+60. kiwi
+61. cassowary
+62. emu
+Species of birds

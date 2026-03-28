@@ -1,0 +1,56 @@
+1. highlighter pen
+2. marker
+3. ballpoint pen
+4. calligraphy
+5. handwriting
+6. ink
+7. nib
+8. fountain pen
+9. pencil
+10. parchment
+11. printing
+12. emojis
+13. typeface
+14. letters
+15. uppercase 
+16. lowercase
+17. bold
+18. italic
+19. numerals
+20. ligature
+21. period 
+22. hyphen
+23. dash
+24. underscore
+25. comma
+26. semicolon
+27. colon
+28. ellipsis
+29. exclamation mark
+30. question mark
+31. apostrophe
+32. single quotation mark
+33. double quotation mark
+34. asterisk
+35. at sign 
+36. ampersand
+37. tilde
+38. acute accent
+39. grave accent
+40. umlaut
+41. circumflex
+42. cedilla
+43. copyright
+44. registered trademark
+45. brackets
+46. hashtag
+47. Latin alphabet
+48. Greek alphabet
+49. Cyrillic alphabet
+50. Braille
+51. Arabic script
+52. Japanese characters
+53. Chinese characters
+54. Devanagari script
+55. Ancient Egyptian hieroglyphs
+Writing and writing equipment

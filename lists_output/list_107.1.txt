@@ -1,0 +1,75 @@
+1. left cornerback
+2. outside linebacker
+3. left defensive end
+4. left safety
+5. left defensive tackle
+6. middle linebacker
+7. right defensive tackle
+8. right safety
+9. right defensive end
+10. outside linebacker
+11. right cornerback
+12. wide receiver
+13. right tackle
+14. right guard
+15. running back 
+16. fullback
+17. quarterback
+18. center 
+19. left guard
+20. left tackle
+21. wide receiver
+22. wide receiver
+23. American football positions
+24. defense 
+25. offense 
+26. fans
+27. end zone
+28. neutral zone
+29. referee
+30. end line
+31. yard line
+32. field 
+33. fifty-yard line
+34. hash marks
+35. goal line
+36. sideline
+37. goalpost
+38. players' bench
+39. chin strap
+40. helmet
+41. neck pad
+42. face mask
+43. shoulder pad
+44. team jersey
+45. player's number
+46. elbow pads
+47. wrist band
+48. gloves
+49. hip, thigh, and knee pads
+50. pants
+51. soccer cleats 
+52. sock
+53. football player
+54. mouth guard
+55. chest protector
+56. team
+57. to tackle
+58. to pass
+59. to catch
+60. time out
+61. to gain yards
+62. to fumble
+63. to throw
+64. to kick
+65. touchdown
+66. to chase
+67. cheerleader
+68. football
+69. leather
+70. lace
+71. time
+72. home
+73. visitor
+74. scoreboard
+American football

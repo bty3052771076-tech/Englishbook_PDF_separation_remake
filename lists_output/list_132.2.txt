@@ -1,0 +1,17 @@
+1. art gallery
+2. museum
+3. monument
+4. palace
+5. historic building
+6. botanical gardens
+7. national park
+8. landscape
+9. scenic
+10. waterfront
+11. craft market
+12. tourist office 
+14. floor plan
+15. map
+16. timetable
+17. opening times
+Attractions

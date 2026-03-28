@@ -1,0 +1,19 @@
+1. sedimentary
+2. sandstone
+3. limestone
+4. chalk
+5. flint
+6. conglomerate
+7. metamorphic
+8. slate
+9. schist
+10. gneiss
+11. marble
+12. quartzite
+13. igneous
+14. granite
+15. obsidian
+16. basalt
+17. tuff
+18. pumice
+Rocks

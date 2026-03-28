@@ -1,0 +1,7 @@
+1. military transport aircraft
+2. bomber
+3. attack helicopter
+4. fighter
+5. reconnaissance aircraft
+6. transport helicopter
+Combat aircraft

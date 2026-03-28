@@ -1,0 +1,49 @@
+1. handle
+2. knob
+3. batting glove
+4. batter
+5. bat
+6. helmet
+7. stitches
+8. baseball
+9. mitt
+10. inning
+11. mask
+12. strike
+13. out
+14. foul ball
+15. safe
+16. to play
+17. to throw
+18. to catch
+19. to bat
+20. to slide
+21. to pitch
+22. to run
+23. to tag
+24. to field
+25. foul pole
+26. foul line
+27. warning track
+28. outfield
+29. first base
+30. coach
+31. coach's box
+32. players' dugout
+33. players
+34. catcher
+35. backstop net
+36. umpire
+37. batter
+38. fourth base 
+39. third base
+40. pitcher
+41. pitcher's mound
+42. umpire
+43. second base
+44. infield
+45. outfielders
+46. boundary
+47. infielder
+48. baseball field
+Baseball game

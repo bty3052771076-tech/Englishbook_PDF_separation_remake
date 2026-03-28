@@ -1,0 +1,57 @@
+1. impala
+2. baboon
+3. aardvark
+4. rhinoceros
+5. giraffe
+6. wildebeest
+7. African elephant
+8. cheetah
+9. lion
+10. lioness
+11. hyena
+12. savannah
+13. gazelle
+14. hippopotamus
+15. zebra
+16. African wild dog
+17. platypus
+18. echidna
+19. Tasmanian devil
+20. wombat
+21. kangaroo
+22. joey
+23. pouch
+24. koala
+25. rabbit
+26. hamster
+27. mouse
+28. whiskers
+29. rat
+30. tail
+31. porcupine
+32. squirrel
+33. hedgehog
+34. flying squirrel
+35. bat
+36. fruit bat
+37. raccoon
+38. skunk
+39. weasel
+40. European badger
+41. honey badger
+42. otter
+43. fennec fox
+44. jackal
+45. roe deer
+46. red deer
+47. fallow deer
+48. springbok
+49. ibex
+50. horns
+51. hoof
+52. Bactrian camel
+53. dromedary
+54. hump
+55. vicuña
+56. llama
+Species of mammals

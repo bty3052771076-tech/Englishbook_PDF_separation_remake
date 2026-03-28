@@ -1,0 +1,55 @@
+1. Africa 
+2. Morocco 
+3. Mauritania 
+4. Cape Verde 
+5. Senegal 
+6. Gambia 
+7. Guinea-Bissau 
+8. Guinea 
+9. Sierra Leone 
+10. Liberia 
+11. Ivory Coast 
+12. Burkina Faso 
+13. Mali 
+14. Algeria 
+15. Tunisia 
+16. Libya 
+17. Niger 
+18. Ghana 
+19. Togo 
+20. Benin 
+21. Nigeria 
+22. Sȃo Tomé and PríncipeSȃo 
+23. Equatorial Guinea 
+24. Cameroon 
+25. Chad 
+26. Egypt 
+27. Sudan 
+28. South Sudan 
+29. Eritrea 
+30. Djibouti 
+31. Ethiopia 
+32. Somalia 
+33. Kenya 
+34. Uganda 
+35. Central African Republic 
+36. Gabon 
+37. Republic of the Congo 
+38. Democratic Republic of the Congo 
+39. Rwanda 
+40. Burundi 
+41. Tanzania 
+42. Mozambique 
+43. Malawi 
+44. Zambia 
+45. Angola 
+46. Namibia 
+47. Botswana 
+48. Zimbabwe 
+49. South Africa 
+50. Lesotho 
+51. Eswatini 
+52. Comoros 
+53. Madagascar 
+54. Seychelles 
+55. Mauritius 

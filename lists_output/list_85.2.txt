@@ -1,0 +1,15 @@
+1. robbery 
+2. mugging
+3. car theft
+4. hooliganism
+5. vandalism
+6. smuggling
+7. fraud
+8. hacking
+9. pickpocketing
+10. bribery
+11. speeding
+12. drug dealing
+13. graffiti
+14. shoplifting
+Crime

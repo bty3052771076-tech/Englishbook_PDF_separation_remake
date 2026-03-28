@@ -1,0 +1,13 @@
+1. to go left 
+2. to go right 
+3. to go straight ahead 
+4. to go back
+5. to go past 
+6. to take the first left
+7. to take the second right
+8. to stop at 
+9. to plan your route
+10. to lose your way
+11. to read a map
+12. to ask directions
+Direction verbs

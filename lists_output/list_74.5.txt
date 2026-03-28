@@ -1,0 +1,13 @@
+1. plus sign
+2. minus sign
+3. multiplication sign
+4. division sign
+5. equals
+6. to count
+7. to add
+8. to subtract
+9. to multiply
+10. to divide
+11. equation
+12. percentage
+Operations

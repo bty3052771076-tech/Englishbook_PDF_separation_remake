@@ -1,0 +1,48 @@
+1. Asia
+2. Turkey
+3. Russian Federation
+4. Georgia
+5. Armenia
+6. Azerbaijan
+7. Iran
+8. Iraq
+9. Syria
+10. Lebanon
+11. Israel
+12. Jordan
+13. Saudi Arabia
+14. Kuwait
+15. Bahrain
+16. Qatar
+17. United Arab Emirates
+18. Oman
+19. Yemen
+20. Kazakhstan
+21. Uzbekistan
+22. Turkmenistan
+23. Afghanistan
+24. Tajikistan
+25. Kyrgyzstan
+26. Pakistan
+27. India
+28. Maldives
+29. Sri Lanka
+30. China
+31. Mongolia
+32. North Korea
+33. South Korea
+34. Japan
+35. Nepal
+36. Bhutan
+37. Bangladesh
+38. Myanmar 
+39. Thailand
+40. Laos
+41. Vietnam
+42. Cambodia
+43. Malaysia
+44. Singapore
+45. Indonesia
+46. Brunei
+47. Philippines
+48. East Timor

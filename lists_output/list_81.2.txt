@@ -1,0 +1,10 @@
+1. hourly rate
+2. overtime
+3. salary
+4. wages
+5. pay slip
+6. bonus
+7. benefits
+8. raise
+9. pay cut
+Pay

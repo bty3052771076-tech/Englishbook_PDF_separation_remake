@@ -1,0 +1,41 @@
+1. wing
+2. midcourt area marker 
+3. game officials
+4. coach
+5. team bench
+6. foul 
+7. free-throw lane 
+8. lane line
+9. restricted area
+10. short corner
+11. sideline
+12. court
+13. half-court line
+14. no-charge semi-circle
+15. arc
+16. point guard
+17. center 
+18. shooting guard
+19. power forward
+20. small forward
+21. five positions
+22. backboard
+23. hoop
+24. net
+25. ball
+26. basket
+27. number
+28. basketball player
+29. pass
+30. out of bounds
+31. throw-in
+32. rebound
+33. airball
+34. jump ball
+35. foul
+36. to mark
+37. to bounce
+38. to dunk
+39. to shoot
+40. to block
+Basketball

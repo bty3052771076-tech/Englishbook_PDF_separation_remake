@@ -1,0 +1,55 @@
+1. bakery
+2. matzo
+3. shaobing
+4. pretzel
+5. pain au chocolat
+6. baker
+7. sliced bread
+8. crispbread
+9. white bread
+10. crust
+11. rye bread
+12. brown bread
+13. loaf
+14. bagel
+15. challah
+16. injera
+17. brioche
+18. fruit bread
+19. granary bread
+20. roll
+21. corn bread
+22. soda bread
+23. sourdough bread
+24. pita 
+25. chapati
+26. croissant
+27. tortilla
+28. slicer
+29. baguette
+30. flute
+31. seeded bread
+32. flatbread
+33. bread flour 
+34. plain flour
+35. self-rising flour 
+36. brown flour
+37. whole-wheat 
+38. white flour
+39. gluten-free flour
+40. buckwheat flour
+41. dried yeast
+42. fresh yeast
+43. sourdough starter
+44. CO2 bubbles
+45. to sift
+46. to mix
+47. to rise
+48. to proof 
+49. dough
+50. to glaze
+51. to bake
+52. to slice
+53. to knead
+54. I like to bake my own bread.
+Breads and flours

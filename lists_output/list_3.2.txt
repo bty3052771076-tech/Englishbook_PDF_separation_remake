@@ -1,0 +1,12 @@
+1. incisors
+2. canines
+3. molars
+4. bicuspids 
+5. gum
+6. pulp
+7. nerve
+8. enamel
+9. bone
+10. root
+11. tooth
+Teeth

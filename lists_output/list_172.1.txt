@@ -1,0 +1,53 @@
+1. day
+2. week
+3. two weeks 
+4. weekend
+5. month
+6. year
+7. decade
+8. century
+9. millennium
+10. Monday
+11. Tuesday
+12. Wednesday
+13. Thursday
+14. Friday
+15. Saturday
+16. Sunday
+17. January
+18. February
+19. March
+20. April
+21. May
+22. June
+23. July
+24. August
+25. September
+26. October
+27. November
+28. December
+29. nineteen hundred
+30. nineteen-oh-one
+31. nineteen ten
+32. two thousand
+33. two thousand and one
+34. twenty thirty-three
+35. once a week
+36. twice a week
+37. three times a week
+38. every day
+39. every other day
+40. only weekends
+41. hourly
+42. daily
+43. weekly
+44. monthly
+45. spring
+46. new leaves
+47. summer
+48. green foliage
+49. seasons
+50. fall 
+51. leaf fall
+52. winter
+Calendar and seasons

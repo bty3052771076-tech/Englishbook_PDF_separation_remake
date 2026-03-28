@@ -1,0 +1,44 @@
+1. umpire
+2. net
+3. baseline
+4. umpire's chair
+5. ball boy 
+6. sideline
+7. service line
+8. to serve
+9. tennis court
+10. handle
+11. racket
+12. strings
+13. ball
+14. wristband
+15. tennis shoes
+16. player
+17. forehand
+18. backhand
+19. volley
+20. return
+21. lob
+22. slice
+23. spin
+24. ace
+25. dropshot
+26. let
+27. game
+28. set
+29. match
+30. love
+31. fault
+32. double fault
+33. deuce
+34. advantage
+35. tie-break
+36. championship
+37. score
+38. rally
+39. 2 players
+40. singles
+41. linesman
+42. 4 players
+43. doubles
+Tennis match

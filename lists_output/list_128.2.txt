@@ -1,0 +1,13 @@
+1. notation
+2. note
+3. bass clef
+4. treble clef
+5. score
+6. chord
+7. scale
+8. lower pitch
+9. higher pitch
+10. pitch
+11. sharp
+12. flat
+Score, notes, and notation

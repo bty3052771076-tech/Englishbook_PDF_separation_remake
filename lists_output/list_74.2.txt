@@ -1,0 +1,9 @@
+1. cone
+2. apex
+3. base
+4. cube
+5. side
+6. cylinder
+7. pyramid
+8. sphere
+Solids

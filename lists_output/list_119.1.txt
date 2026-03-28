@@ -1,0 +1,32 @@
+1. crew
+2. compass
+3. burgee
+4. mast
+5. backstay
+6. rigging
+7. mainsail
+8. jib 
+9. forestay
+10. The wind is really picking up!
+11. boom
+12. tiller
+13. stern
+14. bow
+15. buoy
+16. rope
+17. yacht
+18. hull
+19. anchor
+20. sheet
+21. cleat
+22. sidedeck
+23. boat's wheel
+24. helm
+25. centerboard 
+26. rudder
+27. keel
+28. flare
+29. life preserver 
+30. life jacket
+31. life raft
+Sailing

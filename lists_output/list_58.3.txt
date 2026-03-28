@@ -1,0 +1,25 @@
+1. peanut
+2. raisin
+3. pistachio
+4. walnut
+5. hazelnut
+6. cashew 
+7. golden raisin 
+8. currant
+9. dried fig
+10. date
+11. pine nuts
+12. brazil nuts
+13. pecans
+14. almonds
+15. ginkgo nuts
+16. kola nuts
+17. chestnuts
+18. macadamias
+19. dried apricots
+20. prunes
+21. coconut
+22. milk
+23. flesh
+24. shell
+Nuts and dried fruit

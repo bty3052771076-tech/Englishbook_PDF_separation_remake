@@ -1,0 +1,11 @@
+1. sandwich
+2. pancake
+3. waffle
+4. salad
+5. ice cream cone
+6. ice cream scoop
+7. snack bar
+8. snacks
+9. beverages
+10. Sorry, we've run out of sandwiches.
+Food and snacks

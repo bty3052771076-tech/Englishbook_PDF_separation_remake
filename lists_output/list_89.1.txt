@@ -1,0 +1,66 @@
+1. actor
+2. sociologist
+3. barber
+4. editor
+5. bartender
+6. fisherman
+7. physical therapist 
+8. optician
+9. plumber
+10. This pipe has sprung a leak.
+11. carpenter
+12. ship's captain
+13. lecturer
+14. comedian
+15. dancer
+16. clown
+17. cleaner
+18. doctor
+19. driving instructor
+20. painter
+21. electrician
+22. designer
+23. barista
+24. firefighter
+25. app developer
+26. spy
+27. florist
+28. ground maintenance
+29. gardener
+30. grocer 
+31. miner
+32. IT manager
+33. jeweler 
+34. dentist
+35. maid 
+36. hairdresser 
+37. mechanic
+38. translator
+39. museum curator
+40. private investigator
+41. site manager
+42. orthodontist
+43. broadcaster 
+44. pharmacist
+45. butcher
+46. photographer
+47. police officer
+48. nurse
+49. sailor
+50. sales assistant
+51. server 
+52. server 
+53. sculptor
+54. security guard
+55. tailor
+56. ski instructor
+57. soldier
+58. farmer
+59. sportsperson
+60. fishmonger
+61. singer
+62. real estate agent 
+63. market researcher
+64. vet
+65. Your dog is up to date with its vaccinations.
+Occupations

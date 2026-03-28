@@ -1,0 +1,17 @@
+1. freezing
+2. cold
+3. chilly
+4. warm
+5. hot
+6. stifling
+7. freezing point
+8. boiling point
+9. minus 10
+10. degrees
+11. Celsius
+12. Fahrenheit
+13. cool
+14. mild
+15. boiling
+16. It's boiling! I need to find some shade.
+Temperature

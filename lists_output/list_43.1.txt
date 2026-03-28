@@ -1,0 +1,36 @@
+1. concert hall
+2. historic quarter
+3. museum
+4. art gallery
+5. streetlight
+6. college 
+7. library
+8. bus
+9. school
+10. bridge
+11. avenue
+12. sidewalk 
+13. town houses
+14. apartment block 
+15. sports center 
+16. stop lights 
+17. government building
+18. courthouse 
+19. village
+20. cycle parking
+21. cycle path
+22. cemetery
+23. church
+24. intersection 
+25. traffic jam
+26. departure
+27. arrival
+28. airport
+29. air control tower
+30. manhole
+31. gutter
+32. curb 
+33. drain 
+34. street sign
+35. bollards
+Buildings and other features

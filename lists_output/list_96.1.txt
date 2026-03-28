@@ -1,0 +1,30 @@
+1. road markings
+2. ramp 
+3. emergency phone
+4. exit ramp
+5. inside lane
+6. middle lane
+7. outside lane
+8. hard shoulder
+9. tollbooth
+10. median 
+11. traffic
+12. highway 
+13. divided highway 
+14. divider
+15. junction
+16. roundabout
+17. flyover
+18. underpass
+19. traffic barrier 
+20. detour 
+21. speed camera
+22. stop light 
+23. traffic jam
+24. one-way street
+25. pedestrian crossing
+26. road construction 
+27. disabled parking
+28. parking attendant
+29. parking meter
+On the road

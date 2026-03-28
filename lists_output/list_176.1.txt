@@ -1,0 +1,27 @@
+1. fiberglass 
+2. brick
+3. glass
+4. silver
+5. wax
+6. gold
+7. leather
+8. wool
+9. wood
+10. plastic
+11. cotton
+12. metal
+13. marble
+14. bronze
+15. stone
+16. brass
+17. concrete
+18. ceramic
+19. rubber
+20. paper
+21. hard
+22. soft
+23. shiny
+24. dull
+25. flexible
+26. stiff
+Materials

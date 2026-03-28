@@ -1,0 +1,18 @@
+1. no entry
+2. speed limit
+3. hazard
+4. no right turn
+5. no U-turn
+6. right bend
+7. yield 
+8. priority traffic
+9. no passing 
+10. school zone
+11. bumps
+12. deer crossing
+13. direction to follow
+14. construction ahead 
+15. stop light 
+16. closed to bicycles
+17. closed to pedestrians
+Road signs

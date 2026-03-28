@@ -1,0 +1,18 @@
+1. two hundred
+2. two hundred and fifty
+3. five hundred
+4. seven hundred and fifty
+5. one thousand
+6. one thousand two hundred
+7. ten thousand
+8. one hundred thousand
+9. one million
+10. five million
+11. five hundred million 
+12. one billion
+13. three thousand, eight hundred and forty-six
+14. eighty-two thousand and forty-three
+15. I've lost count!
+16. two hundred and thirty-four thousand, four hundred and seven
+17. three million, eighty-nine thousand, three hundred and forty-two
+Large numbers

@@ -1,0 +1,14 @@
+1. console
+2. controller
+3. strategy game
+4. trivia game
+5. platform game
+6. adventure game
+7. role-playing game
+8. action game
+9. multiplayer game
+10. simulation game
+11. sports game
+12. puzzle game
+13. logic game
+Video games

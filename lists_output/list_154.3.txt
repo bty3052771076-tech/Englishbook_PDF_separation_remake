@@ -1,0 +1,13 @@
+1. sun 
+2. cloud 
+3. fog 
+4. rain 
+5. snow 
+6. ice 
+7. frost 
+8. wind 
+9. storm 
+10. thunder 
+11. mist 
+12. breeze 
+Weather adjectives

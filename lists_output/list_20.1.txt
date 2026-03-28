@@ -1,0 +1,30 @@
+1. I'm not feeling well.
+2. I'm going to take your blood pressure.
+3. patient
+4. nurse
+5. blood pressure
+6. doctor
+7. clinic 
+8. waiting room
+9. appointment
+10. medical examination
+11. inoculation 
+12. syringe
+13. needle
+14. blood test
+15. test results
+16. prescription
+17. medicine 
+18. pills 
+19. scales
+20. stethoscope
+21. inhaler
+22. nasal spray
+23. face mask
+24. sling
+25. dressing
+26. gauze
+27. tape
+28. thermometer
+29. ear thermometer
+Treatment

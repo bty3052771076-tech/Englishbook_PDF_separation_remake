@@ -1,0 +1,26 @@
+1. crust
+2. mantle
+3. continent
+4. sea
+5. outer core
+6. inner core
+7. ocean
+8. land
+9. Earth
+10. island
+11. seamount
+12. ocean ridge
+13. trench
+14. undersea features
+15. North Pole
+16. Northern Hemisphere
+17. tropics
+18. Southern Hemisphere
+19. longitude
+20. Arctic Circle
+21. Tropic of Cancer
+22. Equator
+23. Tropic of Capricorn
+24. latitude
+25. South Pole
+The Earth

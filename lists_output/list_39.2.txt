@@ -1,0 +1,12 @@
+1. soil
+2. topsoil
+3. subsoil
+4. leaching
+5. surface
+6. loam
+7. peat
+8. chalk
+9. sand
+10. silt
+11. clay
+Types of soil

@@ -1,0 +1,12 @@
+1. currency
+2. coins
+3. bills 
+4. PIN
+5. card machine
+6. screen
+7. keypad
+8. cash machine 
+9. exchange rate
+10. to change money
+12. currency exchange 
+Money

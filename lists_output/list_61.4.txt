@@ -1,0 +1,29 @@
+1. milk carton
+2. cow's milk
+3. sheep's milk
+4. whole milk
+5. skim milk 
+6. two percent milk 
+7. soy milk 
+8. almond milk
+9. goat's milk
+10. cream
+11. light cream 
+12. heavy cream 
+13. whipped cream
+14. frozen yogurt 
+15. ice cream
+16. chocolate milkshake
+17. vanilla milkshake
+18. buttermilk
+19. yogurt 
+20. strawberry milkshake
+21. ayran
+22. butter
+23. unsalted
+24. salted
+25. ghee
+26. margarine
+27. condensed milk
+28. kefir
+Milk products

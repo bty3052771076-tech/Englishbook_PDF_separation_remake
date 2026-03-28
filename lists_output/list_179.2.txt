@@ -1,0 +1,13 @@
+1. What's your name
+2. My name is Sally.
+3. How old are you
+4. I'm 25 years old.
+5. Where do you live
+6. I live in Edinburgh.
+7. Where are you from
+8. I'm from Italy.
+9. What do you do
+10. I'm a retired diplomat.
+11. Do you speak English
+12. Only a little. Could you speak more slowly, please
+Getting to know someone

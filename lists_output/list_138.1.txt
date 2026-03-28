@@ -1,0 +1,22 @@
+1. illustration
+2. page
+3. text
+4. spine
+5. book
+6. cover
+7. author
+8. paperback
+9. hardback
+10. title
+11. to flip through
+12. e-reader
+13. review
+14. contents
+15. chapter
+16. bibliography
+17. glossary
+18. index
+19. reading
+20. I love this crime novel. It's a real page-turner.
+21. I hate this fantasy novel. The plot is ridiculous.
+Books

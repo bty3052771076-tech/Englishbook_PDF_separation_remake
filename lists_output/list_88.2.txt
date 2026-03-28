@@ -1,0 +1,8 @@
+1. gun
+2. armored vehicle 
+3. tank
+4. military truck
+5. amphibious vehicle
+6. military ambulance
+7. reconnaissance vehicle
+Military vehicles

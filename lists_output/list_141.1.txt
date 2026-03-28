@@ -1,0 +1,29 @@
+1. brush
+2. painting
+3. canvas
+4. artist
+5. palette
+6. paint tube
+7. palette knife
+8. easel
+9. red
+10. scarlet
+11. blue
+12. turquoise
+13. navy blue
+14. yellow
+15. green
+16. orange
+17. purple
+18. indigo
+19. pink
+20. brown
+21. gray 
+22. black
+23. white
+24. oil paints
+25. watercolors 
+26. pastels
+27. acrylic paints
+28. poster paint
+Painting

@@ -1,0 +1,61 @@
+1. seat post
+2. saddle
+3. cable
+4. crossbar
+5. frame
+6. gear lever
+7. brake lever
+8. handlebar
+9. light
+10. brake
+11. hub
+12. gears
+13. rim
+14. tire 
+15. chain
+16. pedal
+17. road bike
+18. dynamo
+19. fork
+20. wheel
+21. spoke
+22. valve
+23. tread
+24. racing bike
+25. touring bike
+26. mountain bike
+27. electric bike
+28. tandem
+29. basket
+30. child seat
+31. kickstand
+32. brake pad
+33. stabilizers
+34. unicycle
+35. toe clip
+36. toe strap
+37. lamp
+38. rear light
+39. inner tube
+40. to get on a bike
+41. to get off a bike
+42. to pedal
+43. to cycle
+44. to change gear
+45. to brake
+46. to fix a puncture
+47. bike lane 
+48. bike rack
+49. pothole
+50. puncture
+51. patch
+52. tire lever 
+53. glue
+54. puncture repair kit
+55. sprocket
+56. water bottle
+57. bike helmet
+58. reflector
+59. pump
+60. lock
+Bicycle

@@ -1,0 +1,13 @@
+1. hard cheese
+2. semi-hard cheese
+3. semi-soft cheese
+4. soft cheese
+5. sheep's milk cheese
+6. goat's cheese
+7. blue cheese
+8. rind
+9. grated cheese
+10. fresh cheese
+11. cottage cheese
+12. cream cheese
+Cheese

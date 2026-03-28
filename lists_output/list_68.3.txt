@@ -1,0 +1,25 @@
+1. mineral water
+2. cider
+3. rum
+4. rum and cola
+5. vodka
+6. vodka and orange
+7. gin and tonic
+8. Martini
+9. cocktail
+10. mocktail
+11. sherry
+12. port
+13. whiskey 
+14. Scotch and water
+15. brandy
+16. liqueur
+17. with ice
+18. without ice
+19. single
+20. double
+21. shot
+22. measure
+23. ice and lemon
+24. tongs
+Drinks

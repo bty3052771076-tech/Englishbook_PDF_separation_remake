@@ -1,0 +1,12 @@
+1. newspaper
+2. magazine
+3. comic
+4. postcard
+5. tourist map
+6. stamps
+7. travel card
+8. sim card
+9. snack bar
+10. chips 
+11. water
+Newsstand 

@@ -1,0 +1,28 @@
+1. Your X-ray shows that you have broken your ankle.
+2. patient
+3. X-ray
+4. fracture
+5. doctor
+6. foot boot
+7. crutches
+8. sprain
+9. broken bone
+10. sling
+11. whiplash
+12. neck brace
+13. cut
+14. scrape 
+15. bruise
+16. splinter
+17. sunburn
+18. burn
+19. bite
+20. sting
+21. accident
+22. wound
+23. hemorrhage 
+24. blister
+25. concussion
+26. head injury
+27. electric shock
+Injury

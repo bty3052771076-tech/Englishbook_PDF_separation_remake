@@ -1,0 +1,22 @@
+1. hood 
+2. antenna 
+3. door handle
+4. trunk 
+5. headlight
+6. wheel
+7. front door
+8. side view
+9. back door
+10. tire 
+11. windshield 
+12. wiper
+13. side-view mirror 
+14. headlight
+15. turn signal 
+16. license plate 
+17. front view
+18. bumper
+19. winter tires 
+20. roof rack
+21. tailgate
+Car exterior

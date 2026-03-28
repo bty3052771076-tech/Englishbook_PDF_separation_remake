@@ -1,0 +1,10 @@
+1. pan
+2. ounce
+3. pound
+4. gram
+5. kilogram
+6. scales
+7. tonne 
+8. milligram
+9. to weigh
+Weight

@@ -1,0 +1,49 @@
+1. barnacle
+2. limpet
+3. anemone
+4. sea urchin
+5. starfish
+6. needlefish
+7. sea slug
+8. hermit crab
+9. horseshoe crab
+10. coconut crab
+11. fiddler crab
+12. beluga
+13. plankton
+14. blue whale
+15. blow hole
+16. humpback whale
+17. sperm whale
+18. narwhal
+19. killer whale
+20. porpoise
+21. dolphin
+22. seal
+23. sea lion
+24. walrus
+25. nautilus
+26. jellyfish
+27. Portuguese man-of-war
+28. giant squid
+29. ray
+30. pipefish
+31. Atlantic salmon
+32. cod
+33. barracuda
+34. sawfish
+35. flying fish
+36. sailfish
+37. great white shark
+38. hammerhead shark
+39. basking shark
+40. angler fish
+41. gulper eel
+42. mudskipper
+43. seaweed
+44. kelp
+45. sunlit zone
+46. twilight zone
+47. midnight zone
+48. hadal zone
+Marine species

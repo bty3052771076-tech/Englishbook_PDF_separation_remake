@@ -1,0 +1,29 @@
+1. solar farm
+2. solar panel
+3. tidal energy
+4. wind farm
+5. biomass energy
+6. hydroelectric energy
+7. geothermal plant 
+8. geothermal energy
+9. green energy
+10. solar energy
+11. solar water heating
+12. sluice gates
+13. turbine
+14. tidal barrage
+15. reservoir
+16. penstock
+17. generator
+18. pylon
+19. turbine
+20. dam
+21. hydroelectric power station
+22. blade
+23. nacelle
+24. rotor
+25. hub
+26. wind energy
+27. tower
+28. wind turbine
+Renewable energy

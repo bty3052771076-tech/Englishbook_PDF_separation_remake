@@ -1,0 +1,41 @@
+1. train
+2. platform number
+3. waiting room
+4. ticket office
+6. platform
+7. passengers
+8. cart 
+9. luggage storage
+10. lost property office
+11. ticket
+12. fare
+13. ticket barrier
+14. concourse
+15. departures board
+16. public address system
+17. rail network
+18. subway map 
+19. intercity train
+20. delay
+21. rush hour
+22. commuters
+23. to catch a train
+24. to miss a train
+25. to change trains
+26. track
+27. live rail
+28. electric lines
+29. underpass
+30. overpass
+31. signal
+32. compartment
+33. luggage rack
+34. window
+35. door
+36. carriage
+37. dining car
+38. seat
+39. sleeping compartment
+40. ticket inspector
+41. emergency lever
+Train station

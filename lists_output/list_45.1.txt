@@ -1,0 +1,27 @@
+1. branch manager
+2. cashier
+3. I'd like to pay $400 into my savings account.
+4. to pay in
+5. counter
+6. customer
+7. credit card
+8. debit card
+9. amount
+10. signature
+11. account number
+12. check 
+13. savings account
+14. savings
+15. checking account 
+16. direct debit
+17. bank statement
+18. in the black 
+19. in the red 
+20. overdraft
+21. online banking
+22. interest rate
+23. bank loan
+24. mortgage
+25. to withdraw money
+26. to transfer money
+Bank

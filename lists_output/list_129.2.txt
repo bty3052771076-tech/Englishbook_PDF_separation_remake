@@ -1,0 +1,36 @@
+1. harmonica
+2. panpipe
+3. recorder
+4. flute
+5. didgeridoo
+6. bagpipes
+7. trumpet
+8. saxophone
+9. accordion
+10. keyboard
+11. piano
+12. violin
+13. oud
+14. sitar
+15. banjo
+16. mandolin
+17. ukulele
+18. reverb
+19. pick-up
+20. body
+21. neck
+22. tuning peg
+23. headstock
+24. jack connector
+25. electric guitar
+26. tuner
+27. waist
+28. fret
+29. nut
+30. position markers
+31. neck
+32. string
+33. sound hole
+34. bridge
+35. acoustic guitar
+More instruments

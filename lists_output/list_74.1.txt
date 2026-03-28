@@ -1,0 +1,20 @@
+1. oval
+2. square
+3. diagonal
+4. rectangle
+5. triangle
+6. angle
+7. hypotenuse
+8. center 
+9. circumference
+10. arc
+11. radius
+12. diameter
+13. circle
+14. parallelogram
+15. rhombus
+16. trapezoid 
+17. pentagon
+18. hexagon
+19. octagon
+Shapes

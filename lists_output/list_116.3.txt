@@ -1,0 +1,12 @@
+1. discus
+2. shot put
+3. hammer
+4. javelin
+5. pole vault
+6. long jump
+7. high jump
+8. triple jump
+9. crossbar
+10. laser run
+11. fencing
+Field events

@@ -1,0 +1,6 @@
+1. to add to the cart
+2. to add to wishlist
+3. to proceed to checkout
+4. to order
+5. to track your order
+Ordering online

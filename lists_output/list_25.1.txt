@@ -1,0 +1,47 @@
+1. gutter
+2. dormer
+3. roof
+4. antenna 
+5. tile
+6. chimney
+7. chimney pot
+8. satellite dish
+9. apartment block 
+10. window
+11. porch light
+12. bus stop
+13. streetlight
+14. sash window
+15. attic
+16. burglar alarm
+17. mail box
+18. doorbell
+19. front entrance
+20. steps
+21. shutter
+22. apartment buzzer 
+23. grass
+24. porch
+25. trash can 
+26. sidewalk 
+27. store window 
+28. bay window
+29. garage
+30. staircase 
+31. downstairs
+32. upstairs
+33. basement
+34. first floor 
+35. second floor 
+36. patio 
+37. patio doors 
+38. balcony
+39. courtyard
+40. intercom
+41. apartment 
+42. elevator 
+43. wading pool 
+44. jacuzzi
+45. shed
+46. dumpster 
+Houses

@@ -1,0 +1,24 @@
+1. prow
+2. deck
+3. cabin
+4. bridge
+5. radar
+6. radio antenna
+7. quarterdeck
+8. lifeboat
+9. funnel
+10. stern
+11. Plimsoll line
+12. hull
+13. keel
+14. galley
+15. engine room
+16. propeller
+17. captain
+18. life preserver 
+19. life jacket
+20. anchor
+21. gangway
+22. bollard
+23. windlass
+Ship

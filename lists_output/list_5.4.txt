@@ -1,0 +1,11 @@
+1. baby
+2. toddler
+3. child
+4. girl
+5. boy
+6. teenagers
+7. adults
+8. woman
+9. man
+10. elderly
+Growing up

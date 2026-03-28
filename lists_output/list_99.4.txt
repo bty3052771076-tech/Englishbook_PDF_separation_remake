@@ -1,0 +1,14 @@
+1. double-decker bus
+2. upper deck
+3. lower deck
+4. driver
+5. tour bus 
+6. sightseeing
+7. route number
+8. school bus
+9. minibus
+10. articulated bus
+11. shuttle bus
+12. trolley bus
+13. tram
+Types of buses

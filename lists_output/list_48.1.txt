@@ -1,0 +1,13 @@
+1. open
+2. closed
+3. customer
+4. receipt
+5. special offer
+6. bargain
+7. wide range
+8. line 
+9. card machine
+10. online shopping
+11. delivery man
+12. home delivery
+Supermarket

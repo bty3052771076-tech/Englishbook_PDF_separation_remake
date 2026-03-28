@@ -1,0 +1,16 @@
+1. army
+2. marine
+3. navy
+4. soldier
+5. radio
+6. ear phone
+7. camouflage
+8. sailors
+9. general
+10. admiral
+11. airforce
+12. airman
+13. uniform
+14. veteran
+15. medal
+Armed forces

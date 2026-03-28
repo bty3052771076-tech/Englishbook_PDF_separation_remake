@@ -1,0 +1,39 @@
+1. hotel
+2. store 
+3. shopping mall 
+4. parking lot 
+5. commercial district
+6. skyscraper
+7. office building
+8. industrial zone 
+9. factory
+10. post office
+11. café
+12. restaurant
+13. police station
+14. fire station
+15. fountain
+16. park
+17. nightclub
+18. theater 
+19. gas station 
+20. side street
+21. hospital
+22. pharmacy
+23. monument
+24. square
+25. street
+26. street corner
+27. bus station
+28. train station
+29. movie theater 
+30. districts
+31. downtown 
+32. residential district
+33. suburb
+34. pedestrian zone
+35. alley
+36. rush hour
+37. one-way system
+38. tourist office 
+Buildings and other features

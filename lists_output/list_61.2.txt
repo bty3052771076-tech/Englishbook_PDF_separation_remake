@@ -1,0 +1,14 @@
+1. egg white
+2. yolk
+3. shell
+4. egg cup
+5. boiled egg
+6. fried egg
+7. scrambled eggs
+8. poached egg
+9. omelet 
+10. goose egg
+11. duck egg
+12. chicken egg 
+13. quail egg
+Eggs

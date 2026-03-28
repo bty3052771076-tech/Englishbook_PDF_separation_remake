@@ -1,0 +1,17 @@
+1. eyelid
+2. hair
+3. temple
+4. cheek
+5. lips
+6. jaw
+7. forehead
+8. eyebrow
+9. skin
+10. chin
+11. eye
+12. ear
+13. nose
+14. nostrils
+15. mouth
+16. teeth
+Face

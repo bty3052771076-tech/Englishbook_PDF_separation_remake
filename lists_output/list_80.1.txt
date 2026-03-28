@@ -1,0 +1,21 @@
+1. campus
+2. auditorium 
+3. lecturer
+4. sports field
+5. dining hall 
+6. dorms 
+7. scholarship
+8. admissions
+9. undergraduate
+10. diploma
+11. dissertation
+12. degree
+13. graduate
+14. mortarboard
+15. robe
+16. graduation ceremony
+17. postgraduate
+18. thesis
+19. master's degree
+20. doctorate
+College 

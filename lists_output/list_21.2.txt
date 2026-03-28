@@ -1,0 +1,19 @@
+1. ENT 
+2. cardiology
+3. orthopedics 
+4. neurology
+5. radiology
+6. pathology
+7. pediatrics 
+8. dermatology
+9. gynecology 
+10. surgery
+11. physical therapy 
+12. urology
+13. maternity
+14. psychiatry
+15. ophthalmology
+16. endocrinology
+17. oncology
+18. gastroenterology
+Departments

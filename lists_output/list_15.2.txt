@@ -1,0 +1,16 @@
+1. raincoat
+2. hood
+3. anorak
+4. duffle coat
+5. poncho
+6. denim jacket
+7. quilted jacket
+8. bomber jacket
+9. cloak
+10. trench coat
+11. lining
+12. lapel
+13. buttonhole
+14. belt
+15. pocket
+Coats

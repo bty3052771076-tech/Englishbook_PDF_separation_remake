@@ -1,0 +1,26 @@
+1. sausage
+2. sausage patties
+3. bacon
+4. kippers
+5. smoked salmon
+6. smoked mackerel
+7. black pudding 
+8. kidneys
+9. scrambled eggs
+10. poached egg
+11. boiled egg
+12. egg white
+13. yolk
+14. fried egg
+15. toast
+16. fried mushrooms
+17. hash browns
+18. grilled tomato
+19. canned 
+20. baked beans
+21. breakfast roll
+22. breakfast burrito
+23. potato cakes
+24. pancakes
+25. oatmeal 
+Cooked breakfast
