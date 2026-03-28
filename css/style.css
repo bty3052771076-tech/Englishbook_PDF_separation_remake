@@ -1,112 +1,106 @@
 /* ============================================================
-   English Dictionary — Modern Teal Learning Theme
-   Design: Claymorphism + Vibrant / Language Learning
-   Colors: Teal #0D9488 primary | Orange #EA580C CTA
-   Fonts: Outfit (heading) | Work Sans (body)
+   English Dictionary — Blue Learning Theme
+   设计方案 A：不透明蓝色色块按钮，完全遮盖底图单词
+   字体：Outfit（标题）| Work Sans（正文）
+   主色：#3B82F6 蓝 | 播放：#EA580C 橙 | 答对：#16A34A 绿 | 答错：#DC2626 红
    ============================================================ */
 
-/* ── 1. Variables ─────────────────────────────────────────── */
+/* ── 1. CSS 变量 ─────────────────────────────────────────── */
 :root {
-    /* Color palette */
-    --c-primary:      #0D9488;
-    --c-primary-l:    #2DD4BF;
-    --c-primary-d:    #0F766E;
-    --c-cta:          #EA580C;
-    --c-cta-d:        #C2410C;
-    --c-success:      #16A34A;
-    --c-danger:       #DC2626;
-    --c-warning:      #D97706;
+    /* 主色 */
+    --blue:        #3B82F6;
+    --blue-h:      #60A5FA;   /* hover */
+    --blue-d:      #2563EB;   /* dark / border */
+    --blue-dd:     #1D4ED8;   /* active */
 
-    /* Surfaces */
-    --c-bg:           #F0FDFA;
-    --c-surface:      #FFFFFF;
-    --c-surface-2:    #F8FFFE;
+    /* 功能色 */
+    --orange:      #EA580C;
+    --orange-d:    #C2410C;
+    --green:       #16A34A;
+    --green-d:     #15803D;
+    --red:         #DC2626;
+    --red-d:       #B91C1C;
+    --amber:       #D97706;
+    --amber-d:     #B45309;
 
-    /* Text */
-    --c-text:         #134E4A;
-    --c-text-muted:   #5EABA5;
-    --c-text-light:   #99C8C4;
+    /* 页面背景 */
+    --bg:          #EFF6FF;
+    --bg-2:        #DBEAFE;
 
-    /* Borders */
-    --c-border:       #99F6E4;
-    --c-border-d:     #5EEAD4;
+    /* 表面 */
+    --surface:     #FFFFFF;
+    --surface-2:   #F0F7FF;
 
-    /* Word button overlay */
-    --c-btn-fill:     rgba(13, 148, 136, 0.10);
-    --c-btn-border:   rgba(13, 148, 136, 0.45);
-    --c-btn-hover:    rgba(13, 148, 136, 0.28);
-    --c-btn-play:     #0D9488;
+    /* 文字 */
+    --text:        #1E3A5F;
+    --text-muted:  #6B90BE;
+    --text-light:  #A8C4E0;
 
-    /* Review / SRS */
-    --c-review:       #D97706;
-    --c-review-bg:    #FEF3C7;
-    --c-wrong:        #DC2626;
-    --c-wrong-bg:     #FEE2E2;
+    /* 边框 */
+    --border:      #BFDBFE;
+    --border-d:    #93C5FD;
 
-    /* Shadows */
-    --shadow-sm:      0 1px 3px rgba(13, 148, 136, 0.10), 0 1px 2px rgba(13, 148, 136, 0.08);
-    --shadow-md:      0 4px 14px rgba(13, 148, 136, 0.14), 0 2px 6px rgba(13, 148, 136, 0.08);
-    --shadow-lg:      0 12px 32px rgba(13, 148, 136, 0.16), 0 4px 12px rgba(13, 148, 136, 0.10);
+    /* 阴影 */
+    --shadow-sm:   0 1px 3px rgba(37, 99, 235, 0.10);
+    --shadow-md:   0 4px 14px rgba(37, 99, 235, 0.12);
+    --shadow-lg:   0 10px 32px rgba(37, 99, 235, 0.15);
 
-    /* Radii */
-    --r-sm:  8px;
-    --r-md:  14px;
-    --r-lg:  20px;
-    --r-xl:  28px;
+    /* 圆角 */
+    --r-sm:   6px;
+    --r-md:   14px;
+    --r-lg:   20px;
+    --r-xl:   26px;
     --r-pill: 999px;
 
-    /* Transitions */
-    --t-fast:   all 0.15s ease-out;
-    --t-base:   all 0.22s ease-out;
-    --t-slow:   all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    /* 过渡 */
+    --t-fast: all 0.15s ease-out;
+    --t-base: all 0.22s ease-out;
 }
 
-/* ── 2. Reset & Base ──────────────────────────────────────── */
+/* ── 2. 重置 ─────────────────────────────────────────────── */
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
-    font-size: 15px;
-    scroll-behavior: smooth;
-}
+html { font-size: 15px; }
 
 body {
     font-family: 'Work Sans', 'Segoe UI', 'Microsoft YaHei', sans-serif;
-    background: var(--c-bg);
-    background-image:
-        radial-gradient(circle at 15% 12%, rgba(45, 212, 191, 0.18) 0, transparent 38%),
-        radial-gradient(circle at 85% 8%,  rgba(13, 148, 136, 0.12) 0, transparent 32%),
-        radial-gradient(circle at 80% 90%, rgba(234, 88, 12, 0.08)  0, transparent 35%);
+    color: var(--text);
     min-height: 100vh;
-    color: var(--c-text);
+    /* 浅蓝渐变背景 */
+    background:
+        radial-gradient(circle at 10% 15%, rgba(147, 197, 253, 0.30) 0, transparent 40%),
+        radial-gradient(circle at 88% 8%,  rgba(96,  165, 250, 0.18) 0, transparent 35%),
+        radial-gradient(circle at 82% 88%, rgba(234, 88,  12,  0.07) 0, transparent 30%),
+        linear-gradient(160deg, var(--bg) 0%, var(--bg-2) 100%);
 }
 
-/* ── 3. Layout container ──────────────────────────────────── */
+/* ── 3. 容器 ─────────────────────────────────────────────── */
 .container {
     width: 100%;
     max-width: 100%;
     padding: 12px 14px 8px;
 }
 
-/* ── 4. Header ────────────────────────────────────────────── */
+/* ── 4. 头部 ─────────────────────────────────────────────── */
 .header {
-    background: var(--c-surface);
+    background: var(--surface);
     border-radius: var(--r-xl);
     padding: 16px 20px 14px;
     margin-bottom: 12px;
-    border: 1.5px solid var(--c-border);
+    border: 1.5px solid var(--border);
     box-shadow: var(--shadow-md);
-    animation: drop-in 300ms ease-out;
+    animation: drop-in 280ms ease-out;
 }
 
 .header h1 {
     font-family: 'Outfit', 'Segoe UI', sans-serif;
     font-weight: 700;
-    font-size: clamp(1.25rem, 2vw, 1.8rem);
-    color: var(--c-primary-d);
+    font-size: clamp(1.2rem, 2vw, 1.75rem);
+    color: var(--blue-d);
     text-align: center;
     margin-bottom: 4px;
     letter-spacing: -0.3px;
@@ -114,12 +108,12 @@ body {
 
 .header > p {
     text-align: center;
-    color: var(--c-text-muted);
-    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-size: 0.88rem;
     margin-bottom: 14px;
 }
 
-/* ── 5. Controls bar ──────────────────────────────────────── */
+/* ── 5. 控制栏 ───────────────────────────────────────────── */
 .controls {
     display: flex;
     justify-content: space-between;
@@ -135,8 +129,8 @@ body {
     gap: 8px;
     border-radius: var(--r-pill);
     padding: 6px 10px;
-    background: var(--c-surface-2);
-    border: 1.5px solid var(--c-border);
+    background: var(--surface-2);
+    border: 1.5px solid var(--border);
     box-shadow: var(--shadow-sm);
 }
 
@@ -144,15 +138,15 @@ body {
     display: flex;
     align-items: center;
     gap: 6px;
-    background: var(--c-surface);
-    border: 1.5px solid var(--c-border);
+    background: var(--surface);
+    border: 1.5px solid var(--border);
     border-radius: var(--r-pill);
     padding: 6px 12px;
     min-height: 42px;
 }
 
 .page-control label {
-    color: var(--c-text-muted);
+    color: var(--text-muted);
     font-weight: 600;
     font-size: 12px;
     white-space: nowrap;
@@ -161,7 +155,7 @@ body {
 .page-control select {
     border: none;
     background: transparent;
-    color: var(--c-text);
+    color: var(--text);
     font-weight: 700;
     font-family: 'Work Sans', sans-serif;
     outline: none;
@@ -169,12 +163,11 @@ body {
     cursor: pointer;
 }
 
-/* ── 6. Control buttons ───────────────────────────────────── */
+/* ── 6. 控制按钮 ─────────────────────────────────────────── */
 .control-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
     border: none;
     border-radius: var(--r-pill);
     min-height: 42px;
@@ -185,106 +178,100 @@ body {
     letter-spacing: 0.2px;
     cursor: pointer;
     color: white;
-    background: linear-gradient(160deg, var(--c-primary) 0%, var(--c-primary-d) 100%);
-    box-shadow: 0 6px 16px rgba(13, 148, 136, 0.30);
-    transition: var(--t-base);
     white-space: nowrap;
+    background: linear-gradient(160deg, var(--blue) 0%, var(--blue-d) 100%);
+    box-shadow: 0 5px 14px rgba(59, 130, 246, 0.32);
+    transition: var(--t-base);
 }
 
 .control-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 22px rgba(13, 148, 136, 0.38);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.42);
+    background: linear-gradient(160deg, var(--blue-h) 0%, var(--blue) 100%);
 }
 
 .control-btn:active {
-    transform: translateY(0px);
-    box-shadow: 0 3px 8px rgba(13, 148, 136, 0.22);
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(59, 130, 246, 0.20);
 }
 
-/* 播放全部 — orange accent */
+/* 播放全部 — 橙色 */
 #playAll {
-    background: linear-gradient(160deg, #FB923C 0%, var(--c-cta) 100%);
-    box-shadow: 0 6px 16px rgba(234, 88, 12, 0.28);
+    background: linear-gradient(160deg, #FB923C 0%, var(--orange) 100%);
+    box-shadow: 0 5px 14px rgba(234, 88, 12, 0.28);
 }
-#playAll:hover { box-shadow: 0 10px 22px rgba(234, 88, 12, 0.38); }
+#playAll:hover {
+    background: linear-gradient(160deg, #FDBA74 0%, #FB923C 100%);
+    box-shadow: 0 8px 20px rgba(234, 88, 12, 0.40);
+}
 
-/* 今日复习 — amber */
-.control-btn-review,
-#startReview {
-    background: linear-gradient(160deg, #FCD34D 0%, #F59E0B 100%) !important;
+/* 今日复习 — 琥珀色 */
+.control-btn-review, #startReview {
+    background: linear-gradient(160deg, #FCD34D 0%, var(--amber) 100%) !important;
     color: #78350F !important;
-    box-shadow: 0 6px 16px rgba(245, 158, 11, 0.32) !important;
+    box-shadow: 0 5px 14px rgba(217, 119, 6, 0.28) !important;
 }
-.control-btn-review:hover,
-#startReview:hover {
-    box-shadow: 0 10px 22px rgba(245, 158, 11, 0.42) !important;
-}
-
-/* 测试模式 — emerald */
-.control-btn-test,
-#startTest {
-    background: linear-gradient(160deg, #34D399 0%, #059669 100%) !important;
-    box-shadow: 0 6px 16px rgba(5, 150, 105, 0.30) !important;
-}
-.control-btn-test:hover,
-#startTest:hover {
-    box-shadow: 0 10px 22px rgba(5, 150, 105, 0.40) !important;
+.control-btn-review:hover, #startReview:hover {
+    box-shadow: 0 8px 20px rgba(217, 119, 6, 0.40) !important;
 }
 
-/* 显示/隐藏 按钮 */
-#toggleLabels,
-#toggleButtons {
-    background: linear-gradient(160deg, #60A5FA 0%, #3B82F6 100%);
-    box-shadow: 0 6px 16px rgba(59, 130, 246, 0.28);
+/* 测试模式 — 绿色 */
+.control-btn-test, #startTest {
+    background: linear-gradient(160deg, #4ADE80 0%, var(--green) 100%) !important;
+    box-shadow: 0 5px 14px rgba(22, 163, 74, 0.28) !important;
+}
+.control-btn-test:hover, #startTest:hover {
+    box-shadow: 0 8px 20px rgba(22, 163, 74, 0.40) !important;
 }
 
-/* 管理员模式 */
-.admin-toggle,
-#adminToggle {
+/* 显示/隐藏 */
+#toggleLabels, #toggleButtons {
+    background: linear-gradient(160deg, #818CF8 0%, #6366F1 100%);
+    box-shadow: 0 5px 14px rgba(99, 102, 241, 0.28);
+}
+
+/* 管理员 */
+.admin-toggle, #adminToggle {
     background: linear-gradient(160deg, #F87171 0%, #EF4444 100%) !important;
-    box-shadow: 0 6px 16px rgba(239, 68, 68, 0.28) !important;
+    box-shadow: 0 5px 14px rgba(239, 68, 68, 0.28) !important;
 }
-.admin-toggle.active,
-#adminToggle.active {
-    background: linear-gradient(160deg, #FB923C 0%, var(--c-cta) 100%) !important;
+.admin-toggle.active, #adminToggle.active {
+    background: linear-gradient(160deg, #FB923C 0%, var(--orange) 100%) !important;
 }
 
-/* 音量控件 */
+/* 音量 */
 .volume-control {
     display: flex;
     align-items: center;
     gap: 8px;
-    background: var(--c-surface);
-    border: 1.5px solid var(--c-border);
+    background: var(--surface);
+    border: 1.5px solid var(--border);
     border-radius: var(--r-pill);
     padding: 6px 12px;
 }
-
-.volume-control label,
-#volumeValue {
-    color: var(--c-text-muted);
+.volume-control label, #volumeValue {
+    color: var(--text-muted);
     font-weight: 600;
     font-size: 12px;
 }
-
 .volume-control input[type="range"] {
     width: 90px;
-    accent-color: var(--c-primary);
+    accent-color: var(--blue);
 }
 
-/* ── 7. Main layout ───────────────────────────────────────── */
+/* ── 7. 主布局 ───────────────────────────────────────────── */
 .main-layout {
     display: flex;
     height: calc(100vh - 128px);
     gap: 12px;
 }
 
-/* ── 8. Sidebars ──────────────────────────────────────────── */
+/* ── 8. 侧边栏 ───────────────────────────────────────────── */
 .left-sidebar,
 .right-sidebar,
 .admin-panel {
     border-radius: var(--r-lg);
-    border: 1.5px solid var(--c-border);
+    border: 1.5px solid var(--border);
     box-shadow: var(--shadow-md);
     overflow-y: auto;
     display: flex;
@@ -292,47 +279,37 @@ body {
     padding: 16px;
 }
 
-.left-sidebar,
-.right-sidebar {
+.left-sidebar, .right-sidebar {
     width: 290px;
-    background: var(--c-surface);
-}
-
-.left-sidebar {
-    border-right: none;
-}
-
-.right-sidebar {
-    border-left: none;
+    background: var(--surface);
 }
 
 /* 侧栏标题 */
-.left-sidebar h2,
-.right-sidebar h2 {
+.left-sidebar h2, .right-sidebar h2 {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
-    font-size: 1.1rem;
-    color: var(--c-primary-d);
+    font-size: 1.05rem;
+    color: var(--blue-d);
     margin-bottom: 12px;
     text-align: center;
     padding-bottom: 10px;
-    border-bottom: 2px solid var(--c-border);
+    border-bottom: 2px solid var(--border);
     flex-shrink: 0;
 }
 
 .review-title {
-    color: var(--c-wrong) !important;
-    border-bottom-color: var(--c-wrong-bg) !important;
+    color: var(--red) !important;
+    border-bottom-color: #FEE2E2 !important;
 }
 
-/* 侧栏 section */
+/* section 容器 */
 .sidebar-section {
     display: flex;
     flex-direction: column;
     gap: 6px;
-    margin-bottom: 14px;
-    background: var(--c-surface-2);
-    border: 1px solid var(--c-border);
+    margin-bottom: 12px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
     border-radius: var(--r-md);
     padding: 10px;
 }
@@ -348,14 +325,11 @@ body {
 .sidebar-section-title {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
-    color: var(--c-text);
+    color: var(--text);
     font-size: 13px;
-    letter-spacing: 0.2px;
 }
 
-.right-sidebar .sidebar-section-title {
-    color: var(--c-wrong);
-}
+.right-sidebar .sidebar-section-title { color: var(--red); }
 
 .sidebar-section .sidebar-word-list {
     flex: 1;
@@ -373,48 +347,47 @@ body {
     padding-right: 4px;
 }
 
-/* 自定义滚动条 */
+/* 滚动条 */
 .sidebar-word-list::-webkit-scrollbar { width: 5px; }
-.sidebar-word-list::-webkit-scrollbar-track { background: var(--c-bg); border-radius: 3px; }
-.sidebar-word-list::-webkit-scrollbar-thumb { background: var(--c-border-d); border-radius: 3px; }
-.sidebar-word-list::-webkit-scrollbar-thumb:hover { background: var(--c-primary-l); }
+.sidebar-word-list::-webkit-scrollbar-track { background: var(--surface-2); border-radius: 3px; }
+.sidebar-word-list::-webkit-scrollbar-thumb { background: var(--border-d); border-radius: 3px; }
+.sidebar-word-list::-webkit-scrollbar-thumb:hover { background: var(--blue); }
 
 /* 单词条目 */
 .sidebar-word-item {
     padding: 10px 14px;
     border-radius: var(--r-sm);
-    border: 1px solid var(--c-border);
+    border: 1px solid var(--border);
     cursor: pointer;
     transition: var(--t-fast);
     font-weight: 500;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--c-surface);
+    background: var(--surface);
     box-shadow: var(--shadow-sm);
 }
 
 .left-sidebar .sidebar-word-item:hover {
-    background: rgba(13, 148, 136, 0.06);
-    border-color: var(--c-primary-l);
+    background: #EFF6FF;
+    border-color: var(--blue);
     transform: translateX(3px);
 }
 
 .right-sidebar .sidebar-word-item:hover {
-    background: var(--c-wrong-bg);
-    border-color: var(--c-wrong);
+    background: #FEF2F2;
+    border-color: var(--red);
     transform: translateX(3px);
 }
 
 .sidebar-word-item span:first-child {
     font-size: 14px;
-    color: var(--c-text);
+    color: var(--text);
     font-weight: 600;
 }
 
-/* 错误次数徽章 */
 .sidebar-word-item .error-count {
-    background: var(--c-danger);
+    background: var(--red);
     color: white;
     font-size: 10px;
     font-weight: 700;
@@ -424,36 +397,34 @@ body {
     text-align: center;
 }
 
-/* 复习标记 */
 .sidebar-word-item.review-target {
-    border-color: var(--c-warning);
-    background: var(--c-review-bg);
+    border-color: var(--amber);
+    background: #FFFBEB;
 }
 
 /* 播放中 */
 .sidebar-word-item.playing {
-    background: var(--c-primary) !important;
-    color: white !important;
-    border-color: var(--c-primary-d) !important;
-    box-shadow: 0 4px 12px rgba(13, 148, 136, 0.35) !important;
+    background: var(--blue) !important;
+    border-color: var(--blue-d) !important;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.35) !important;
     transform: translateX(4px);
 }
 .sidebar-word-item.playing span:first-child { color: white !important; }
 .sidebar-word-item.playing .error-count {
     background: white;
-    color: var(--c-primary-d);
+    color: var(--blue-d);
 }
 
 .right-sidebar .sidebar-word-item.playing {
-    background: var(--c-wrong) !important;
-    border-color: #B91C1C !important;
+    background: var(--red) !important;
+    border-color: var(--red-d) !important;
     box-shadow: 0 4px 12px rgba(220, 38, 38, 0.30) !important;
 }
 
-/* 刷新小按钮 */
+/* 刷新按钮 */
 .small-btn {
-    background: var(--c-surface);
-    border: 1.5px solid var(--c-border);
+    background: var(--surface);
+    border: 1.5px solid var(--border);
     border-radius: var(--r-sm);
     width: 30px;
     height: 30px;
@@ -462,28 +433,26 @@ body {
     justify-content: center;
     cursor: pointer;
     font-size: 13px;
-    color: var(--c-text-muted);
+    color: var(--text-muted);
     transition: var(--t-fast);
 }
-
 .small-btn:hover {
-    color: var(--c-primary);
-    border-color: var(--c-primary);
-    background: rgba(13, 148, 136, 0.06);
+    color: var(--blue);
+    border-color: var(--blue);
+    background: #EFF6FF;
     transform: rotate(90deg);
 }
 
 .empty-tip {
     text-align: center;
-    color: var(--c-text-light);
+    color: var(--text-light);
     margin-top: 40px;
     font-style: italic;
     font-size: 13px;
 }
 
-/* 复习徽章 */
 .review-badge {
-    background: var(--c-primary);
+    background: var(--blue);
     color: white;
     font-size: 10px;
     font-weight: 700;
@@ -491,16 +460,16 @@ body {
     border-radius: var(--r-pill);
 }
 
-/* ── 9. Main content (PDF area) ───────────────────────────── */
+/* ── 9. 中心 PDF 区域 ─────────────────────────────────────── */
 .main-content {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: var(--r-lg);
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.90);
     box-shadow: var(--shadow-lg);
-    border: 1.5px solid var(--c-border);
+    border: 1.5px solid var(--border);
     overflow: hidden;
 }
 
@@ -513,8 +482,9 @@ body {
     height: 100%;
     min-height: min(74vh, 760px);
     border-radius: 18px;
-    background: linear-gradient(160deg, #F9FFFE 0%, #F0FDFA 100%);
-    border: 2px dashed var(--c-border);
+    /* 蓝色虚线边框，提示可交互区域 */
+    border: 2px dashed var(--border-d);
+    background: linear-gradient(160deg, #F8FBFF 0%, #EFF6FF 100%);
     overflow: hidden;
 }
 
@@ -522,39 +492,35 @@ body {
     max-width: 100%;
     max-height: 80vh;
     object-fit: contain;
-    border-radius: 12px;
-    box-shadow: 0 8px 28px rgba(13, 148, 136, 0.14);
+    border-radius: 10px;
+    box-shadow: 0 6px 24px rgba(37, 99, 235, 0.12);
     display: block;
 }
 
-/* ── 10. Loading spinner ──────────────────────────────────── */
+/* ── 10. 加载动画 ─────────────────────────────────────────── */
 .loading {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    color: var(--c-text-muted);
+    color: var(--text-muted);
     font-size: 14px;
 }
 
 .spinner {
     width: 44px;
     height: 44px;
-    border: 3px solid var(--c-border);
-    border-top-color: var(--c-primary);
+    border: 3px solid var(--border);
+    border-top-color: var(--blue);
     border-radius: 50%;
-    animation: spin 0.85s linear infinite;
+    animation: spin 0.8s linear infinite;
 }
 
-@keyframes spin {
-    to { transform: rotate(360deg); }
-}
+@keyframes spin { to { transform: rotate(360deg); } }
 
-/* ── 11. Word buttons (PDF overlay) ─────────────────────────
-   KEY DESIGN: semi-transparent overlay so PDF text is visible.
-   Normal  → thin teal border + subtle teal fill
-   Hover   → brighter fill + glow, label visible
-   Playing → solid teal + pulse animation
+/* ── 11. 单词按钮 ── 核心设计 ────────────────────────────────
+   功能：完全遮盖 PDF 底图上的单词文本
+   方案 A：不透明蓝色色块
    ─────────────────────────────────────────────────────────── */
 .word-buttons {
     position: absolute;
@@ -565,91 +531,104 @@ body {
 
 .word-button {
     position: absolute;
-    background: var(--c-btn-fill);
-    border: 1.5px solid var(--c-btn-border);
-    border-radius: 5px;
+    /* 完全不透明，遮盖底图文字 */
+    background: var(--blue);
+    border: 2px solid var(--blue-d);
+    border-radius: var(--r-sm);       /* 6px，方正感 */
     cursor: pointer;
     pointer-events: auto;
-    transition: background 0.15s ease-out, border-color 0.15s ease-out,
-                box-shadow 0.15s ease-out, transform 0.12s ease-out;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    transition: background 0.15s ease-out,
+                border-color 0.15s ease-out,
+                box-shadow 0.15s ease-out,
+                transform 0.12s ease-out;
 }
 
+/* 悬停：变亮 + 轻微放大，空白模式下不显示文字 */
 .word-button:hover {
-    background: var(--c-btn-hover);
-    border-color: var(--c-primary);
-    box-shadow: 0 0 0 2px rgba(13, 148, 136, 0.22), 0 2px 8px rgba(13, 148, 136, 0.18);
-    transform: scale(1.04);
+    background: var(--blue-h);
+    border-color: var(--blue);
+    box-shadow: 0 3px 10px rgba(59, 130, 246, 0.35);
+    transform: scale(1.05);
     z-index: 10;
 }
 
+/* 播放中：橙色 + 脉冲光晕 */
 .word-button.playing {
-    background: var(--c-btn-play);
-    border-color: var(--c-primary-d);
-    box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.32);
+    background: var(--orange);
+    border-color: var(--orange-d);
+    box-shadow: 0 0 0 3px rgba(234, 88, 12, 0.30);
     animation: btn-pulse 600ms ease-in-out infinite;
     z-index: 20;
 }
 
-/* 测试模式：正确 / 错误 */
+/* 答对：绿色 */
 .word-button.review-correct {
-    background: rgba(22, 163, 74, 0.55) !important;
-    border-color: var(--c-success) !important;
-    box-shadow: 0 0 12px rgba(22, 163, 74, 0.45) !important;
+    background: var(--green) !important;
+    border-color: var(--green-d) !important;
+    box-shadow: 0 3px 10px rgba(22, 163, 74, 0.40) !important;
 }
 
+/* 答错：红色 */
 .word-button.review-wrong {
-    background: rgba(220, 38, 38, 0.55) !important;
-    border-color: var(--c-danger) !important;
-    box-shadow: 0 0 12px rgba(220, 38, 38, 0.45) !important;
+    background: var(--red) !important;
+    border-color: var(--red-d) !important;
+    box-shadow: 0 3px 10px rgba(220, 38, 38, 0.40) !important;
 }
 
-/* hidden */
+/* 隐藏 */
 .word-button.hidden {
     display: none !important;
 }
 
-/* 管理员模式 */
+/* 管理员模式：半透明橙虚线，方便看底图调整位置 */
 .container.admin-mode .word-button {
-    background: rgba(234, 88, 12, 0.10);
-    border: 2px dashed rgba(234, 88, 12, 0.60);
+    background: rgba(234, 88, 12, 0.12);
+    border: 2px dashed rgba(234, 88, 12, 0.65);
 }
 .container.admin-mode .word-button.selected {
-    background: rgba(234, 88, 12, 0.25);
-    border: 2px solid var(--c-cta);
+    background: rgba(234, 88, 12, 0.28);
+    border: 2px solid var(--orange);
     z-index: 100;
 }
 
-/* 单词文字标签 */
+/* 单词文字（显示文字模式） */
 .word-button .word-text {
     display: block;
     width: 100%;
-    padding: 0 2px;
-    color: rgba(255, 255, 255, 0.90);
+    padding: 0 3px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 700;
-    font-size: 11px;
     line-height: 1.1;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     pointer-events: none;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.30);
+    /* 默认隐藏；.show-labels 或 .playing 时显示 */
     opacity: 0;
     transition: opacity 0.15s ease;
 }
 
-/* 悬停 or 播放时显示文字 */
-.word-button:hover .word-text,
+/* show-labels 模式：显示文字 */
+.show-labels .word-button .word-text {
+    opacity: 1;
+}
+
+/* 播放中也显示文字 */
 .word-button.playing .word-text {
     opacity: 1;
 }
 
-/* 浮动标签 (show-labels 模式) */
+/* 悬停时不显示文字（保留空白遮盖的测试意义） */
+
+/* 浮动标签（show-labels class 在 .word-buttons 容器上时） */
 .word-label {
-    background: rgba(15, 118, 110, 0.82);
+    background: rgba(30, 58, 95, 0.82);
     color: white;
     padding: 2px 7px;
     border-radius: var(--r-pill);
@@ -666,23 +645,21 @@ body {
     opacity: 1;
 }
 
-/* ── 12. 看图识词 (picture quiz) ─────────────────────────── */
+/* ── 12. 看图识词（picture quiz） ─────────────────────────── */
 .picture-quiz-highlight {
     position: absolute;
     border: 3px solid #FBBF24;
     box-shadow: 0 0 0 4px rgba(251, 191, 36, 0.25);
-    border-radius: 6px;
+    border-radius: var(--r-sm);
     pointer-events: none;
     z-index: 1200;
 }
-
 .picture-quiz-highlight.correct {
-    border-color: var(--c-success);
+    border-color: var(--green);
     box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.25);
 }
-
 .picture-quiz-highlight.wrong {
-    border-color: var(--c-danger);
+    border-color: var(--red);
     box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.25);
 }
 
@@ -698,7 +675,7 @@ body {
     box-shadow: var(--shadow-lg);
     z-index: 1300;
     backdrop-filter: blur(10px);
-    border: 1.5px solid var(--c-border);
+    border: 1.5px solid var(--border);
 }
 
 .picture-quiz-header {
@@ -709,12 +686,11 @@ body {
 }
 
 .picture-quiz-drag-handle {
-    flex: 0 0 auto;
     padding: 4px 10px;
     border-radius: var(--r-sm);
-    border: 1px solid var(--c-border);
-    background: var(--c-surface-2);
-    color: var(--c-text);
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+    color: var(--text);
     font-size: 12px;
     font-weight: 600;
     cursor: move;
@@ -723,7 +699,7 @@ body {
 }
 
 .picture-quiz-progress {
-    color: var(--c-text);
+    color: var(--text);
     font-weight: 700;
     font-size: 14px;
 }
@@ -735,48 +711,45 @@ body {
 }
 
 .picture-quiz-option-btn {
-    background: var(--c-surface);
-    border: 1.5px solid var(--c-border);
+    background: var(--surface);
+    border: 1.5px solid var(--border);
     border-radius: var(--r-sm);
     padding: 12px 10px;
     cursor: pointer;
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     font-weight: 600;
-    color: var(--c-text);
+    color: var(--text);
     transition: var(--t-fast);
 }
-
 .picture-quiz-option-btn:hover {
-    border-color: var(--c-primary);
-    background: rgba(13, 148, 136, 0.06);
+    border-color: var(--blue);
+    background: #EFF6FF;
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(13, 148, 136, 0.14);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.16);
 }
-
 .picture-quiz-option-btn.correct {
-    background: rgba(22, 163, 74, 0.10);
-    border-color: var(--c-success);
+    background: #F0FDF4;
+    border-color: var(--green);
 }
-
 .picture-quiz-option-btn.wrong {
-    background: var(--c-wrong-bg);
-    border-color: var(--c-danger);
+    background: #FEF2F2;
+    border-color: var(--red);
 }
 
-/* ── 13. SRS feedback ─────────────────────────────────────── */
+/* ── 13. SRS 反馈 ─────────────────────────────────────────── */
 .srs-feedback-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
     padding: 8px 0;
-    border-bottom: 1px dashed var(--c-border);
+    border-bottom: 1px dashed var(--border);
 }
 
 .srs-feedback-word {
     font-weight: 700;
-    color: var(--c-text);
+    color: var(--text);
     font-size: 13.5px;
 }
 
@@ -788,30 +761,28 @@ body {
 }
 
 .srs-feedback-btn {
-    background: var(--c-surface);
-    border: 1.5px solid var(--c-border);
+    background: var(--surface);
+    border: 1.5px solid var(--border);
     border-radius: var(--r-sm);
     padding: 4px 10px;
     cursor: pointer;
     font-size: 12px;
     font-weight: 600;
-    color: var(--c-text);
+    color: var(--text);
     transition: var(--t-fast);
 }
-
 .srs-feedback-btn:hover {
-    border-color: var(--c-primary);
-    color: var(--c-primary-d);
-    background: rgba(13, 148, 136, 0.06);
+    border-color: var(--blue);
+    color: var(--blue-d);
+    background: #EFF6FF;
 }
-
 .srs-feedback-btn.active {
-    background: var(--c-primary);
+    background: var(--blue);
     color: white;
-    border-color: var(--c-primary-d);
+    border-color: var(--blue-d);
 }
 
-/* ── 14. Audio indicator ──────────────────────────────────── */
+/* ── 14. 音频指示器 ───────────────────────────────────────── */
 .audio-indicator {
     position: fixed;
     bottom: 22px;
@@ -824,12 +795,11 @@ body {
     display: none;
     z-index: 1000;
     backdrop-filter: blur(12px);
-    border: 1.5px solid var(--c-border);
+    border: 1.5px solid var(--border);
 }
-
 .audio-indicator.active {
     display: block;
-    animation: slide-up 0.28s ease-out;
+    animation: slide-up 0.26s ease-out;
 }
 
 .indicator-content {
@@ -843,13 +813,13 @@ body {
     font-family: 'Outfit', sans-serif;
     font-size: 17px;
     font-weight: 700;
-    color: var(--c-text);
+    color: var(--text);
 }
 
 .audio-progress {
     width: 180px;
     height: 3px;
-    background: var(--c-border);
+    background: var(--border);
     border-radius: 2px;
     overflow: hidden;
 }
@@ -857,28 +827,28 @@ body {
 .progress-bar {
     width: 0%;
     height: 100%;
-    background: linear-gradient(90deg, var(--c-primary-l), var(--c-primary));
+    background: linear-gradient(90deg, var(--blue-h), var(--blue));
     transition: width 0.1s linear;
 }
 
-/* ── 15. Admin panel ──────────────────────────────────────── */
+/* ── 15. 管理员面板 ───────────────────────────────────────── */
 .admin-panel {
     width: 310px;
-    background: var(--c-surface);
+    background: var(--surface);
     border-left: none;
     gap: 16px;
 }
 
 .admin-drag-handle {
     cursor: default;
-    background: var(--c-surface-2);
+    background: var(--surface-2);
     padding: 10px;
     border-radius: var(--r-md);
-    border: 1px solid var(--c-border);
+    border: 1px solid var(--border);
     text-align: center;
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
-    color: var(--c-text);
+    color: var(--text);
     font-size: 14px;
 }
 
@@ -900,77 +870,64 @@ body {
     color: white;
     transition: var(--t-fast);
 }
-
 .admin-btn:hover {
     transform: translateY(-1px);
     filter: brightness(1.10);
 }
-
 #saveChanges {
-    background: linear-gradient(160deg, #4ADE80 0%, var(--c-success) 100%);
+    background: linear-gradient(160deg, #4ADE80 0%, var(--green) 100%);
 }
-
 .admin-btn-export {
-    background: linear-gradient(160deg, #FB923C 0%, var(--c-cta) 100%) !important;
+    background: linear-gradient(160deg, #FB923C 0%, var(--orange) 100%) !important;
 }
 
-.edit-form,
-.add-button-form {
-    background: var(--c-surface-2);
+.edit-form, .add-button-form {
+    background: var(--surface-2);
     padding: 14px;
     border-radius: var(--r-md);
-    border: 1px solid var(--c-border);
+    border: 1px solid var(--border);
 }
 
-.edit-form h4,
-.add-button-form h4 {
+.edit-form h4, .add-button-form h4 {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     font-size: 13px;
-    color: var(--c-text);
+    color: var(--text);
     margin-bottom: 10px;
 }
 
-.form-group {
-    margin-bottom: 12px;
-}
+.form-group { margin-bottom: 12px; }
 
 .form-group label {
     display: block;
     margin-bottom: 4px;
-    color: var(--c-text-muted);
+    color: var(--text-muted);
     font-size: 12px;
     font-weight: 600;
 }
 
-.form-group input,
-.form-group select {
+.form-group input, .form-group select {
     width: 100%;
     padding: 8px 10px;
-    border: 1.5px solid var(--c-border);
+    border: 1.5px solid var(--border);
     border-radius: var(--r-sm);
     font-family: 'Work Sans', sans-serif;
     font-size: 13px;
-    color: var(--c-text);
-    background: var(--c-surface);
+    color: var(--text);
+    background: var(--surface);
     outline: none;
     transition: var(--t-fast);
 }
-
-.form-group input:focus,
-.form-group select:focus {
-    border-color: var(--c-primary);
-    box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.14);
+.form-group input:focus, .form-group select:focus {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.14);
 }
 
-.form-buttons,
-.form-actions {
+.form-buttons, .form-actions {
     display: flex;
     gap: 8px;
 }
-
-.form-buttons button,
-.form-actions button {
+.form-buttons button, .form-actions button {
     flex: 1;
     padding: 8px;
     border: none;
@@ -980,18 +937,16 @@ body {
     font-size: 13px;
     transition: var(--t-fast);
 }
+#applyEdit  { background: var(--blue); color: white; }
+#applyEdit:hover { background: var(--blue-d); }
+#cancelEdit { background: #F1F5F9; color: var(--text); border: 1px solid var(--border); }
 
-#applyEdit    { background: var(--c-primary); color: white; }
-#applyEdit:hover { background: var(--c-primary-d); }
-#cancelEdit   { background: #F1F5F9; color: var(--c-text); border: 1px solid var(--c-border); }
-#cancelEdit:hover { background: #E2E8F0; }
-
-/* ── 16. Error toast ──────────────────────────────────────── */
+/* ── 16. 错误提示 Toast ────────────────────────────────────── */
 .error-message {
     position: fixed;
     top: 20px;
     right: 20px;
-    background: var(--c-danger);
+    background: var(--red);
     color: white;
     padding: 14px 22px;
     border-radius: var(--r-md);
@@ -999,38 +954,31 @@ body {
     z-index: 2000;
     display: none;
     font-weight: 600;
-    animation: slide-in 0.28s ease-out;
+    animation: slide-in 0.26s ease-out;
 }
 
-/* ── 17. Footer stats ─────────────────────────────────────── */
-.footer {
-    margin-top: 10px;
-    padding-bottom: 10px;
-}
+/* ── 17. 底部统计 ─────────────────────────────────────────── */
+.footer { margin-top: 10px; padding-bottom: 10px; }
 
-.stats {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-}
+.stats { display: flex; gap: 8px; flex-wrap: wrap; }
 
 .stats > span {
     display: inline-flex;
     align-items: center;
     border-radius: var(--r-pill);
     padding: 7px 12px;
-    background: rgba(255, 255, 255, 0.85);
-    border: 1.5px solid var(--c-border);
+    background: rgba(255, 255, 255, 0.88);
+    border: 1.5px solid var(--border);
     font-weight: 700;
     font-size: 13px;
-    color: var(--c-text);
+    color: var(--text);
 }
 
-/* ── 18. Test modal ───────────────────────────────────────── */
+/* ── 18. 测试弹窗 ─────────────────────────────────────────── */
 .modal-test {
     position: fixed;
     inset: 0;
-    background: rgba(19, 78, 74, 0.35);
+    background: rgba(30, 58, 95, 0.38);
     z-index: 3000;
     display: flex;
     justify-content: center;
@@ -1040,15 +988,15 @@ body {
 }
 
 .modal-test-content {
-    background: var(--c-surface);
+    background: var(--surface);
     padding: 28px 26px;
     border-radius: var(--r-xl);
     width: 440px;
     max-width: 100%;
     text-align: center;
-    box-shadow: 0 20px 56px rgba(13, 148, 136, 0.22);
-    border: 2px solid var(--c-border);
-    animation: drop-in 0.28s ease-out;
+    box-shadow: 0 20px 56px rgba(37, 99, 235, 0.22);
+    border: 2px solid var(--border);
+    animation: drop-in 0.26s ease-out;
 }
 
 #testModalTitle {
@@ -1056,17 +1004,14 @@ body {
     font-weight: 700;
     font-size: 1.3rem;
     margin-bottom: 18px;
-    color: var(--c-text);
+    color: var(--text);
 }
 
-.modal-form-group {
-    text-align: left;
-    margin-bottom: 14px;
-}
+.modal-form-group { text-align: left; margin-bottom: 14px; }
 
 .modal-label {
     display: block;
-    color: var(--c-text-muted);
+    color: var(--text-muted);
     margin-bottom: 7px;
     font-weight: 700;
     font-size: 13px;
@@ -1076,19 +1021,19 @@ body {
     width: 100%;
     padding: 10px 12px;
     border-radius: var(--r-sm);
-    border: 1.5px solid var(--c-border);
+    border: 1.5px solid var(--border);
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
-    color: var(--c-text);
-    background: var(--c-surface);
+    color: var(--text);
+    background: var(--surface);
     outline: none;
     transition: var(--t-fast);
 }
-.modal-select:focus { border-color: var(--c-primary); }
+.modal-select:focus { border-color: var(--blue); }
 
 .modal-tip {
     margin-bottom: 12px;
-    color: var(--c-text-muted);
+    color: var(--text-muted);
     font-size: 13.5px;
 }
 
@@ -1100,93 +1045,78 @@ body {
     text-align: center;
     padding: 9px 10px;
     margin-bottom: 16px;
-    border: 1.5px solid var(--c-border);
+    border: 1.5px solid var(--border);
     border-radius: var(--r-sm);
-    color: var(--c-text);
+    color: var(--text);
     outline: none;
 }
-.modal-count-input:focus { border-color: var(--c-primary); }
+.modal-count-input:focus { border-color: var(--blue); }
 
 .modal-unit {
     margin-left: 8px;
     font-size: 15px;
-    color: var(--c-text-muted);
+    color: var(--text-muted);
     font-weight: 600;
 }
 
-.modal-form-buttons {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
+.modal-form-buttons { display: flex; gap: 10px; justify-content: center; }
 
 .modal-btn-start {
-    background: linear-gradient(160deg, #4ADE80 0%, var(--c-success) 100%) !important;
+    background: linear-gradient(160deg, #4ADE80 0%, var(--green) 100%) !important;
     box-shadow: 0 6px 16px rgba(22, 163, 74, 0.28) !important;
 }
 .modal-btn-cancel {
     background: linear-gradient(160deg, #CBD5E1 0%, #94A3B8 100%) !important;
-    box-shadow: none !important;
     color: #334155 !important;
+    box-shadow: none !important;
 }
 
 .result-score {
     font-family: 'Outfit', sans-serif;
     font-size: 52px;
     font-weight: 800;
-    color: var(--c-primary);
+    color: var(--blue);
     margin: 16px 0;
 }
 
 .result-accuracy {
     margin-bottom: 14px;
     font-size: 17px;
-    color: var(--c-text-muted);
+    color: var(--text-muted);
     font-weight: 600;
 }
 
-.wrong-words-container,
-.srs-feedback-container {
+.wrong-words-container, .srs-feedback-container {
     margin-bottom: 14px;
     text-align: left;
 }
 
 .section-title {
     font-family: 'Outfit', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     margin-bottom: 8px;
     padding-bottom: 5px;
-    border-bottom: 1px solid var(--c-border);
-    color: var(--c-text);
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
 }
 
-.error-section-title { color: var(--c-danger); }
+.error-section-title { color: var(--red); }
 
 .modal-scroll-list {
     max-height: 140px;
     overflow-y: auto;
     font-size: 13.5px;
-    color: var(--c-text-muted);
+    color: var(--text-muted);
     line-height: 1.8;
 }
-
 .modal-scroll-list-lg { max-height: 210px; }
 
-.srs-actions {
-    margin-top: 10px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.srs-save-btn {
-    padding: 10px 16px;
-    font-size: 13.5px;
-}
-
+.srs-actions { margin-top: 10px; display: flex; justify-content: flex-end; }
+.srs-save-btn { padding: 10px 16px; font-size: 13.5px; }
 .modal-close-btn { min-width: 120px; }
 
-/* ── 19. Responsive ───────────────────────────────────────── */
+/* ── 19. 大屏适配 ─────────────────────────────────────────── */
 @media (min-width: 1600px) {
     html { font-size: 16px; }
     .left-sidebar, .right-sidebar { width: 340px; }
@@ -1196,20 +1126,16 @@ body {
     .control-btn { padding: 11px 22px; font-size: 15px; }
 }
 
+/* ── 20. 响应式 ───────────────────────────────────────────── */
 @media (max-width: 1200px) {
     .left-sidebar, .right-sidebar { width: 240px; }
 }
 
 @media (max-width: 980px) {
     .container { padding: 10px; }
-    .main-layout {
-        flex-direction: column;
-        height: auto;
-        gap: 10px;
-    }
+    .main-layout { flex-direction: column; height: auto; gap: 10px; }
     .left-sidebar, .right-sidebar, .main-content, .admin-panel {
-        width: 100%;
-        border-radius: var(--r-md);
+        width: 100%; border-radius: var(--r-md);
     }
     .left-sidebar, .right-sidebar { max-height: 34vh; }
     .main-content { min-height: 52vh; }
@@ -1218,21 +1144,17 @@ body {
 @media (max-width: 680px) {
     .header { padding: 12px 14px; }
     .controls { flex-direction: column; align-items: stretch; }
-    .control-group {
-        width: 100%;
-        border-radius: var(--r-md);
-        justify-content: center;
-    }
+    .control-group { width: 100%; border-radius: var(--r-md); justify-content: center; }
     .control-btn { width: 100%; justify-content: center; }
     .page-control { width: 100%; justify-content: space-between; }
     .stats > span { width: 100%; justify-content: center; }
     .modal-test-content { padding: 20px 16px; }
 }
 
-/* ── 20. Animations ───────────────────────────────────────── */
+/* ── 21. 动画 ─────────────────────────────────────────────── */
 @keyframes btn-pulse {
-    0%   { box-shadow: 0 0 0 0   rgba(13, 148, 136, 0.52); }
-    100% { box-shadow: 0 0 0 12px rgba(13, 148, 136, 0);   }
+    0%   { box-shadow: 0 0 0 0   rgba(234, 88, 12, 0.55); }
+    100% { box-shadow: 0 0 0 14px rgba(234, 88, 12, 0);   }
 }
 
 @keyframes drop-in {
@@ -1250,7 +1172,7 @@ body {
     to   { transform: translateX(0);    opacity: 1; }
 }
 
-/* ── 21. Respect reduced-motion ──────────────────────────── */
+/* ── 22. 无障碍：减少动画 ─────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
         animation-duration: 0.01ms !important;
@@ -1258,19 +1180,13 @@ body {
     }
 }
 
-/* ── 22. Sidebar-header action (absolute position helper) ─── */
+/* ── 23. 杂项 ─────────────────────────────────────────────── */
 .sidebar-header-action {
     position: absolute;
-    top: 22px;
-    right: 22px;
+    top: 22px; right: 22px;
     z-index: 10;
 }
 
-/* ── 23. Admin form misc ──────────────────────────────────── */
-.admin-btn-refresh-audio {
-    width: 30%;
-    font-size: 11px;
-    flex-shrink: 0;
-}
+.admin-btn-refresh-audio { width: 30%; font-size: 11px; flex-shrink: 0; }
 .new-audio-select { width: 70%; margin-right: 6px; }
 .new-audio-input  { margin-top: 6px; }
